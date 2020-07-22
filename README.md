@@ -7,6 +7,9 @@ A main website with user-friendly layout conneced with shopify marketplace
 - Booking feature for members
 - Payment system integration
 
+## Libraries
+- https://react.semantic-ui.com
+
 ## Task(s)
 - [ ] Persiapan kerangka
 - [ ] Analisa kebutuhan hosting/domain
