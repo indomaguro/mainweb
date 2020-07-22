@@ -11,3 +11,9 @@ A main website with user-friendly layout conneced with shopify marketplace
 - [ ] Persiapan kerangka
 - [ ] Analisa kebutuhan hosting/domain
 - [ ] Analisa integrasi payment system
+
+## Command(s)
+npm run deploy
+
+## Display
+https://indomaguro.github.io/mainweb/
