@@ -5,8 +5,7 @@ import Simplenav from './components/Simplenav'
 
 function App() {
   return (
-    <div className="App">
-      <h1>Application started</h1>
+    <div className="Appx">
       <Simplenav/>
     </div>
   );
