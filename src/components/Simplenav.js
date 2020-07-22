@@ -5,6 +5,7 @@ const Simplenav=()=>{
 
       // fix menu when passed
       //view-source:https://semantic-ui.com/examples/homepage.html
+      
     });
     return(
         <div>
