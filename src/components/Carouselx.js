@@ -14,12 +14,12 @@ const Carouselx=()=>{
 
     
     return(
-        <div className="">
+        <div>
 
         <Carousel>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 carox"
             src={imgMukadimah}
             alt="First slide"
           />
@@ -30,7 +30,7 @@ const Carouselx=()=>{
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 carox"
             src={imgMukadimah}
             alt="Third slide"
           />
@@ -42,7 +42,7 @@ const Carouselx=()=>{
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-100 carox"
             src={imgMukadimah}
             alt="Third slide"
           />

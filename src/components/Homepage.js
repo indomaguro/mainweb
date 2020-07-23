@@ -1,6 +1,15 @@
 import React,{useState,useEffect} from 'react';
 import image1 from './images/mukadimah.jpg';
 import Carouselx from './Carouselx';
+import imgDadu from './images/dadu.jpg';
+import { 
+  Container,
+  Row,
+  Col,
+  Image,
+
+} from 'react-bootstrap';
+
 
 import { 
   Button, 
@@ -43,6 +52,23 @@ const Homepage=()=>{
       </Navbar>
 
       <Carouselx/>
+
+      <Container className="eat-drink">
+        <Row>
+          <Col xs={6} md={4}>
+            <Image src={imgDadu} rounded />
+          </Col>
+          <Col xs={6} md={4}>
+            <Image src={imgDadu} rounded />
+          </Col>
+          <Col xs={6} md={4}>
+            <Image src={imgDadu} rounded />
+          </Col>
+        </Row>
+      </Container>        
+
+
+
 
         </div>
     );
