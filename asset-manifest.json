@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/mainweb/static/css/main.077cf8f3.chunk.css",
-    "main.js": "/mainweb/static/js/main.7dff6f65.chunk.js",
-    "main.js.map": "/mainweb/static/js/main.7dff6f65.chunk.js.map",
+    "main.css": "/mainweb/static/css/main.61905962.chunk.css",
+    "main.js": "/mainweb/static/js/main.49246804.chunk.js",
+    "main.js.map": "/mainweb/static/js/main.49246804.chunk.js.map",
     "runtime-main.js": "/mainweb/static/js/runtime-main.6be346c8.js",
     "runtime-main.js.map": "/mainweb/static/js/runtime-main.6be346c8.js.map",
-    "static/js/2.d3708353.chunk.js": "/mainweb/static/js/2.d3708353.chunk.js",
-    "static/js/2.d3708353.chunk.js.map": "/mainweb/static/js/2.d3708353.chunk.js.map",
+    "static/js/2.369e34f5.chunk.js": "/mainweb/static/js/2.369e34f5.chunk.js",
+    "static/js/2.369e34f5.chunk.js.map": "/mainweb/static/js/2.369e34f5.chunk.js.map",
     "index.html": "/mainweb/index.html",
-    "precache-manifest.64aff620c1cc2b1adb7144131f2fd2c1.js": "/mainweb/precache-manifest.64aff620c1cc2b1adb7144131f2fd2c1.js",
+    "precache-manifest.b56c91c4e5f7fc11b8ac678bac33e927.js": "/mainweb/precache-manifest.b56c91c4e5f7fc11b8ac678bac33e927.js",
     "service-worker.js": "/mainweb/service-worker.js",
-    "static/css/main.077cf8f3.chunk.css.map": "/mainweb/static/css/main.077cf8f3.chunk.css.map",
-    "static/js/2.d3708353.chunk.js.LICENSE.txt": "/mainweb/static/js/2.d3708353.chunk.js.LICENSE.txt",
-    "static/media/dadu.jpg": "/mainweb/static/media/dadu.2b12f00b.jpg",
-    "static/media/mukadimah.jpg": "/mainweb/static/media/mukadimah.5ecdc168.jpg"
+    "static/css/main.61905962.chunk.css.map": "/mainweb/static/css/main.61905962.chunk.css.map",
+    "static/js/2.369e34f5.chunk.js.LICENSE.txt": "/mainweb/static/js/2.369e34f5.chunk.js.LICENSE.txt",
+    "static/media/Fishop_store2.jpg": "/mainweb/static/media/Fishop_store2.ff5aafe2.jpg",
+    "static/media/fishop-brands.png": "/mainweb/static/media/fishop-brands.51e72bd5.png",
+    "static/media/mukadimah.jpg": "/mainweb/static/media/mukadimah.5ecdc168.jpg",
+    "static/media/unagi.jpg": "/mainweb/static/media/unagi.b79f8d2c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6be346c8.js",
-    "static/js/2.d3708353.chunk.js",
-    "static/css/main.077cf8f3.chunk.css",
-    "static/js/main.7dff6f65.chunk.js"
+    "static/js/2.369e34f5.chunk.js",
+    "static/css/main.61905962.chunk.css",
+    "static/js/main.49246804.chunk.js"
   ]
 }
