@@ -8,7 +8,7 @@ A main website with user-friendly layout conneced with shopify marketplace
 - Payment system integration
 
 ## Libraries
-- https://react.semantic-ui.com
+- https://react-bootstrap.github.io/
 
 ## Task(s)
 - [ ] Persiapan kerangka
