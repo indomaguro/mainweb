@@ -2,11 +2,12 @@
   /*text-align: center;*/
 }
 .carox{
-  
+  min-height: 300px;
+  width:100%;
 }
 
 .eat-drink{
-  margin:10px auto;
+  margin-top: 10px;
 }
 /*------------------------*/
 .hidden.menu {
