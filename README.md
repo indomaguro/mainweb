@@ -20,3 +20,6 @@ npm run deploy
 
 ## Display
 https://indomaguro.github.io/mainweb/
+
+## Ideas
+- Brand-name Generator: https://businessnamegenerator.com/businessname/?bname=seafood+fish+meat

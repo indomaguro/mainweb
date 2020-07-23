@@ -30,7 +30,7 @@ const Homepage=()=>{
         <div>
      
         <Navbar bg="light" expand="lg" sticky="top" >
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home">MShop</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto">
@@ -44,7 +44,7 @@ const Homepage=()=>{
             <Nav.Link href="#link">MEMBERSHIP</Nav.Link>
             <Nav.Link href="#link">SHOP</Nav.Link>
             <Nav.Link href="#link">NEWS</Nav.Link>
-            <Nav.Link href="#link">CORPORATE</Nav.Link>
+            <Nav.Link href="#link">ABOUT</Nav.Link>
           </Nav>
           <Form inline>
             <FormControl type="text" placeholder="Search" className="mr-sm-2" />
