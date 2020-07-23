@@ -1,12 +1,12 @@
 import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
-import Simplenav from './components/Simplenav'
+import Homepage from './components/Homepage';
 
 function App() {
   return (
     <div className="Appx">
-      <Simplenav/>
+      <Homepage/>
     </div>
   );
 }
