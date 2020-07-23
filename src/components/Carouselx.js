@@ -30,7 +30,7 @@ const Carouselx=()=>{
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
-
+{/*
         <Carousel.Item>
           <img
             className="d-block w-100 carox"
@@ -42,7 +42,7 @@ const Carouselx=()=>{
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
-
+*/}
         <Carousel.Item>
           <img
             className="d-block w-100 carox"
