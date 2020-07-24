@@ -22,7 +22,7 @@ const Carouselx=()=>{
         <Carousel.Item className="imagebox">
           <img
             className="d-block w-100 carox"
-            src={imgStore}
+            src={imgMukadimah}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -42,7 +42,7 @@ const Carouselx=()=>{
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
-        
+
         <Carousel.Item className="imagebox">
           <img
             className="d-block w-100 carox"
