@@ -35,7 +35,7 @@ const Homepage=()=>{
         <div>
      
         <Navbar  bg="dark" variant="dark" expand="lg" sticky="top" >
-        <Navbar.Brand href="#home">MShop</Navbar.Brand>
+        <Navbar.Brand href="#home">MShop Indonesia</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto">

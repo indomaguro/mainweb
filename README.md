@@ -16,6 +16,11 @@ A main website with user-friendly layout conneced with shopify marketplace
 - [ ] Analisa kebutuhan hosting/domain
 - [ ] Analisa integrasi payment system
 
+## Additional Tasks
+- [ ] Host frontend di Firebase Hosting
+- [ ] Integrasi Twilio untuk Whatsapp Bot
+- [ ] Django backend terkoneksi ke Shopify API
+
 ## Command(s)
 npm run deploy
 

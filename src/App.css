@@ -33,6 +33,15 @@ body{
   padding:20px 0px 20px 0px;
 }
 
+.footerpart a{
+  color:lightgrey;
+  text-decoration: none;
+}
+
+.footerpart a:hover{
+  color:white;
+}
+
 .botBanner{
   width:100%;
   height: 400px;
