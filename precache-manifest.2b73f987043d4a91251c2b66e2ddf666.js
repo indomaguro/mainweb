@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b91d8940e6930cd93ed9353a745c7ae4",
+    "revision": "b2762c7e1934621d6dfe13f943034259",
     "url": "/mainweb/index.html"
   },
   {
-    "revision": "2043ebca92b484c69874",
-    "url": "/mainweb/static/css/main.e19eb5cd.chunk.css"
+    "revision": "1eefc71a289a0795ab14",
+    "url": "/mainweb/static/css/main.fe89372e.chunk.css"
   },
   {
-    "revision": "502afe8f45f3569be4cd",
-    "url": "/mainweb/static/js/2.369e34f5.chunk.js"
+    "revision": "c5c0774d1d923b7fba9d",
+    "url": "/mainweb/static/js/2.6ca77e0b.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/mainweb/static/js/2.369e34f5.chunk.js.LICENSE.txt"
+    "url": "/mainweb/static/js/2.6ca77e0b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2043ebca92b484c69874",
-    "url": "/mainweb/static/js/main.0339e062.chunk.js"
+    "revision": "1eefc71a289a0795ab14",
+    "url": "/mainweb/static/js/main.e79090a0.chunk.js"
   },
   {
     "revision": "84355da088b45584a612",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ff5aafe28d74eebd39590a36f5949eb4",
     "url": "/mainweb/static/media/Fishop_store2.ff5aafe2.jpg"
+  },
+  {
+    "revision": "c1751b95d295b22adf860ce1aedf8df8",
+    "url": "/mainweb/static/media/fish-banner.c1751b95.jpg"
   },
   {
     "revision": "51e72bd50b564f1ca9ba96e67f54d9da",

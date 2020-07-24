@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/mainweb/static/css/main.e19eb5cd.chunk.css",
-    "main.js": "/mainweb/static/js/main.0339e062.chunk.js",
-    "main.js.map": "/mainweb/static/js/main.0339e062.chunk.js.map",
+    "main.css": "/mainweb/static/css/main.fe89372e.chunk.css",
+    "main.js": "/mainweb/static/js/main.e79090a0.chunk.js",
+    "main.js.map": "/mainweb/static/js/main.e79090a0.chunk.js.map",
     "runtime-main.js": "/mainweb/static/js/runtime-main.6be346c8.js",
     "runtime-main.js.map": "/mainweb/static/js/runtime-main.6be346c8.js.map",
-    "static/js/2.369e34f5.chunk.js": "/mainweb/static/js/2.369e34f5.chunk.js",
-    "static/js/2.369e34f5.chunk.js.map": "/mainweb/static/js/2.369e34f5.chunk.js.map",
+    "static/js/2.6ca77e0b.chunk.js": "/mainweb/static/js/2.6ca77e0b.chunk.js",
+    "static/js/2.6ca77e0b.chunk.js.map": "/mainweb/static/js/2.6ca77e0b.chunk.js.map",
     "index.html": "/mainweb/index.html",
-    "precache-manifest.2df7de36c34d0834f2c8363f91657596.js": "/mainweb/precache-manifest.2df7de36c34d0834f2c8363f91657596.js",
+    "precache-manifest.2b73f987043d4a91251c2b66e2ddf666.js": "/mainweb/precache-manifest.2b73f987043d4a91251c2b66e2ddf666.js",
     "service-worker.js": "/mainweb/service-worker.js",
-    "static/css/main.e19eb5cd.chunk.css.map": "/mainweb/static/css/main.e19eb5cd.chunk.css.map",
-    "static/js/2.369e34f5.chunk.js.LICENSE.txt": "/mainweb/static/js/2.369e34f5.chunk.js.LICENSE.txt",
+    "static/css/main.fe89372e.chunk.css.map": "/mainweb/static/css/main.fe89372e.chunk.css.map",
+    "static/js/2.6ca77e0b.chunk.js.LICENSE.txt": "/mainweb/static/js/2.6ca77e0b.chunk.js.LICENSE.txt",
     "static/media/Fishop_store2.jpg": "/mainweb/static/media/Fishop_store2.ff5aafe2.jpg",
+    "static/media/fish-banner.jpg": "/mainweb/static/media/fish-banner.c1751b95.jpg",
     "static/media/fishop-brands.png": "/mainweb/static/media/fishop-brands.51e72bd5.png",
     "static/media/mukadimah.jpg": "/mainweb/static/media/mukadimah.5ecdc168.jpg",
     "static/media/unagi.jpg": "/mainweb/static/media/unagi.b79f8d2c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6be346c8.js",
-    "static/js/2.369e34f5.chunk.js",
-    "static/css/main.e19eb5cd.chunk.css",
-    "static/js/main.0339e062.chunk.js"
+    "static/js/2.6ca77e0b.chunk.js",
+    "static/css/main.fe89372e.chunk.css",
+    "static/js/main.e79090a0.chunk.js"
   ]
 }
