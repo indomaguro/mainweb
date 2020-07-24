@@ -3,6 +3,7 @@ A main website with user-friendly layout conneced with shopify marketplace
 
 ## Project: Main Website Fishop
 - Referensi: https://www.ismaya.com/
+- Referensi tambahan: https://lunchbox.progressionstudios.com/
 - Navigation menu: Shop-> mengarah ke fishop.co.id
 - Booking feature for members
 - Payment system integration
