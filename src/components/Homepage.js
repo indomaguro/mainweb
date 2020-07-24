@@ -20,6 +20,7 @@ import {
   FormControl 
 } from 'react-bootstrap';
 import Botbanner from './Botbanner';
+import Footer from './Footer';
 
 const Homepage=()=>{
     useEffect(()=>{
@@ -92,24 +93,8 @@ const Homepage=()=>{
 
       <Botbanner/>
 
-      <div className="footerpart">
-      <Container>
-        <Row>
-          <Col>
-            <h3>MShop Indonesia</h3>
-            <p>
-Established in 2020, MShop Indonesia’s vision is to be a leader in building strong and everlasting lifestyle brands globally in the lifestyle & hospitality industry
 
-PT. Indomaguro
-            </p>
-          </Col>
-          <Col></Col>
-          <Col></Col>
-        </Row>
-      </Container>      
-      </div>
-
-
+      <Footer/>
 
         </div>
     );

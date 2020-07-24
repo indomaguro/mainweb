@@ -1,12 +1,6 @@
 import React from 'react';
 import imgBanner from './images/fish-banner.jpg';
 import { 
-    Button, 
-    Nav,
-    Navbar,
-    Form,
-    NavDropdown,
-    FormControl,
     Image,
   } from 'react-bootstrap';
 
