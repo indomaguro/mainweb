@@ -10,6 +10,7 @@ A main website with user-friendly layout conneced with shopify marketplace
 
 ## Libraries
 - https://react-bootstrap.github.io/
+- https://shopify.github.io/js-buy-sdk/
 
 ## Task(s)
 - [ ] Persiapan kerangka
