@@ -19,7 +19,7 @@ const Carouselx=()=>{
         <div>
 
         <Carousel>
-        <Carousel.Item>
+        <Carousel.Item className="imagebox">
           <img
             className="d-block w-100 carox"
             src={imgStore}
@@ -30,8 +30,8 @@ const Carouselx=()=>{
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
-{/*
-        <Carousel.Item>
+
+        <Carousel.Item className="imagebox">
           <img
             className="d-block w-100 carox"
             src={imgBrands}
@@ -42,8 +42,8 @@ const Carouselx=()=>{
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
-*/}
-        <Carousel.Item>
+        
+        <Carousel.Item className="imagebox">
           <img
             className="d-block w-100 carox"
             src={imgMukadimah}

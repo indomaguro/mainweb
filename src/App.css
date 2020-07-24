@@ -2,8 +2,15 @@
   /*text-align: center;*/
 }
 .carox{
-  min-height: 300px;
-  width:100%;
+  max-height: 100%;
+  max-width:100%;
+  object-fit: cover;
+}
+
+.imagebox{
+  width: 100%;        
+  border: 0px solid black;
+  height: 300px;
 }
 
 .eat-drink{
