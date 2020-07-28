@@ -1,7 +1,7 @@
 import React,{useEffect} from 'react';
 import imgMukadimah from './images/mukadimah.jpg';
 import imgBrands from './images/fishop-brands.png';
-import imgStore from './images/Fishop_store2.jpg';
+//import imgStore from './images/Fishop_store2.jpg';
 //import $ from 'jquery';
 //import ReactDOM from 'react-dom';
 import { 

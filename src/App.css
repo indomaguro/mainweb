@@ -53,6 +53,10 @@ body{
   object-fit: cover;
   filter: brightness(50%); 
 }
+
+.page-space{
+  background-color: white;
+}
 /*------------------------*/
 .hidden.menu {
   display: none;

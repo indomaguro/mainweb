@@ -7,7 +7,6 @@ import {
   Row,
   Col,
   Image,
-
 } from 'react-bootstrap';
 
 
