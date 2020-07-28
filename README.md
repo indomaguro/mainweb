@@ -30,3 +30,5 @@ https://indomaguro.github.io/mainweb/
 
 ## Ideas
 - Brand-name Generator: https://businessnamegenerator.com/businessname/?bname=seafood+fish+meat
+- React with Shopify all complete: https://www.youtube.com/watch?v=yWyCZbSysMs&t=1589s
+- Great CSS framework: https://atomizecode.com/

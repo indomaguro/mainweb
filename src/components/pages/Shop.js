@@ -9,10 +9,48 @@ import React,{Component} from 'react';import{
 } from 'react-bootstrap';
 import imgDadu from '../images/unagi.jpg';
 import imgSeafood from '../images/banner-seafood.png';
+import Client from 'shopify-buy';
+
+// Initializing a client to return content in the store's primary language
+const client = Client.buildClient({
+    domain: 'fishop-indonesia.myshopify.com',
+    storefrontAccessToken: 'b7ab11888030f54d1cffc844820e2fc0'
+  });
+  
 
 class Shop extends Component{
+
+    state={
+        products:[],
+    }
+
+
+    componentDidMount(){
+        // Fetch all products in your shop
+        client.product.fetchAll().then((products) => {
+            // Do something with the products
+            //console.log(products);
+            this.setState({products});
+        });
+        
+    }
+
+    getProduct=(productId)=>{
+        let pr='';
+        client.product.fetch(productId)
+        .then((prd)=>{
+            //console.log(prd.images[0]);
+            let xpr=prd.images[0];
+            if(xpr && xpr.src){
+                pr=xpr.src;
+                console.log(pr);
+            }
+        });
+        return pr;
+    }
+
     render(){
-        const datax=[1,2,3,4,5,6,7,8,9,10];
+        //const datax=[1,2,3,4,5,6,7,8,9,10];
         return(
             <div>
 
@@ -56,17 +94,17 @@ class Shop extends Component{
                             <div className="eat-drink">
                             <Row>
                             {
-                              datax.map((value,index)=>{
+                              this.state.products.map((data,index)=>{
                                 return(
-                                  <Col xs={6} md={4}>
-                                    <Card style={{ width: '17rem',margin:'10px',boxShadow:'5px 5px 5px #ddd' }}>
-                                        <Card.Img variant="top" src={imgDadu} />
+                                  <Col xs={6} md={4} key={data.id}>
+                                    <Card style={{ width: '17rem',margin:'10px',boxShadow:'5px 5px 5px #ddd' }} className="shop-item">
+                                        <Card.Img variant="top" src={data.id} alt='...' />
                                         <Card.Body>
-                                        <Card.Title>Aji Hiraki Butterfly</Card.Title>
+                                        <Card.Title>{data.title}</Card.Title>
                                         <Card.Text>
-                                        Rp 11.000
+                                        Rp 11.000 
                                         </Card.Text>
-                                        
+                                        <div>{this.getProduct(data.id)}</div>
                                         </Card.Body>
                                     </Card>
 

@@ -30,10 +30,10 @@ const Footer=()=>{
             </Col>
             <Col>
                 <h3>Connect With Us !</h3>
-                <i class="fas fa-phone-volume"></i> 021-2926-3576 or 0811-919-6688<br/>
-                <i class="fab fa-whatsapp"></i> 0815-1913-1635<br/>
-                <i class="fab fa-facebook"></i> fishop_jkt<br/>
-                <i class="fab fa-instagram"> fishop.jkt</i>
+                <i className="fas fa-phone-volume"></i> 021-2926-3576 or 0811-919-6688<br/>
+                <i className="fab fa-whatsapp"></i> 0815-1913-1635<br/>
+                <i className="fab fa-facebook"></i> fishop_jkt<br/>
+                <i className="fab fa-instagram"> fishop.jkt</i>
             </Col>
           </Row>
         </Container>      

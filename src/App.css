@@ -57,6 +57,10 @@ body{
 .page-space{
   background-color:#ffffff;
 }
+
+.shop-item:hover{
+  border:1px solid black;
+}
 /*------------------------*/
 .hidden.menu {
   display: none;
