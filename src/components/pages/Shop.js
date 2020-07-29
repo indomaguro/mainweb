@@ -7,7 +7,7 @@ import React,{Component} from 'react';import{
     Button,
     Card,
 } from 'react-bootstrap';
-import imgDadu from '../images/unagi.jpg';
+//import imgDadu from '../images/unagi.jpg';
 import imgSeafood from '../images/banner-seafood.png';
 import Client from 'shopify-buy';
 
@@ -27,9 +27,10 @@ class Shop extends Component{
 
     componentDidMount(){
         // Fetch all products in your shop
-        client.product.fetchAll().then((products) => {
+        client.product.fetchAll()
+        .then((products) => {
             // Do something with the products
-            //console.log(products);
+            console.log(products);
             this.setState({products});
         });
         
@@ -43,10 +44,10 @@ class Shop extends Component{
             let xpr=prd.images[0];
             if(xpr && xpr.src){
                 pr=xpr.src;
-                console.log(pr);
+                //console.log(pr);
             }
         });
-        return pr;
+        return pr.toString();
     }
 
     render(){
@@ -98,13 +99,13 @@ class Shop extends Component{
                                 return(
                                   <Col xs={6} md={4} key={data.id}>
                                     <Card style={{ width: '17rem',margin:'10px',boxShadow:'5px 5px 5px #ddd' }} className="shop-item">
-                                        <Card.Img variant="top" src={data.id} alt='...' />
+                                        <Card.Img variant="top" src={data.images.map(x=>x.src)[0]} alt={index} />
                                         <Card.Body>
                                         <Card.Title>{data.title}</Card.Title>
                                         <Card.Text>
-                                        Rp 11.000 
+                                        Price: {data.variants.map(x=>x.price)[0]}
                                         </Card.Text>
-                                        <div>{this.getProduct(data.id)}</div>
+                                            <div></div>
                                         </Card.Body>
                                     </Card>
 
