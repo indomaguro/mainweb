@@ -14,7 +14,7 @@ A main website with user-friendly layout conneced with shopify marketplace
 - https://www.npmjs.com/package/react-helmet
 
 ## Task(s)
-- [ ] Persiapan kerangka
+- [x] Persiapan kerangka
 - [ ] Analisa kebutuhan hosting/domain
 - [ ] Analisa integrasi payment system
 
