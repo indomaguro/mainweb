@@ -34,7 +34,16 @@ class Home extends Component{
       
           </Container>        
       
-      
+          <div>
+            <Container>
+              <Row>
+                <Col>
+                <iframe title="xx23324324" src="https://www.google.com/maps/embed?pb=!4v1596012490423!6m8!1m7!1sCAoSLEFGMVFpcFBfSktEVnJTZ1k3dWNFOHNQUXQ3WHN1dnR3ckVpZVZESXc5MWg3!2m2!1d-6.101273366840912!2d106.8001694477426!3f260!4f10!5f0.7820865974627469" width="100%" height="450" frameBorder="0" style={{border:0}} allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
+                
+                </Col>
+              </Row>
+            </Container>
+          </div>      
       
       
           <div className="memberpart">
