@@ -27,7 +27,7 @@ class Shop extends Component{
 
     componentDidMount(){
         // Fetch all products in your shop
-        client.product.fetchAll()
+        client.product.fetchAll(24)
         .then((products) => {
             // Do something with the products
             console.log(products);
@@ -54,11 +54,11 @@ class Shop extends Component{
         //const datax=[1,2,3,4,5,6,7,8,9,10];
         return(
             <div>
-
+                <div className="generalBanner">
+                    <Image src={imgSeafood} className="imageFull" />
+                </div>
                 <Container>
-                    <div>
-                        <Image src={imgSeafood}/>
-                    </div>
+
                     <Row>
                         <Col xs lg="3">
                             <h4>Filter</h4>

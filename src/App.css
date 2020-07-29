@@ -61,6 +61,19 @@ body{
 .shop-item:hover{
   border:1px solid black;
 }
+
+.imageFull{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  filter: brightness(70%);
+}
+
+.generalBanner{
+  width:100%;
+  height: 150px;
+  background-color: yellow;
+}
 /*------------------------*/
 .hidden.menu {
   display: none;

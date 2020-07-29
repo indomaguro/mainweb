@@ -29,7 +29,7 @@ function App() {
   return (
     <Router>
 
-      <Navbar  bg="light" variant="light" expand="lg" sticky="top" >
+      <Navbar  bg="dark" variant="dark" expand="lg" sticky="top" >
         <Navbar.Brand href="/">MShop Indonesia</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
