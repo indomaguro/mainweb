@@ -11,6 +11,7 @@ A main website with user-friendly layout conneced with shopify marketplace
 ## Libraries
 - https://react-bootstrap.github.io/
 - https://shopify.github.io/js-buy-sdk/
+- https://www.npmjs.com/package/react-helmet
 
 ## Task(s)
 - [ ] Persiapan kerangka
@@ -18,7 +19,7 @@ A main website with user-friendly layout conneced with shopify marketplace
 - [ ] Analisa integrasi payment system
 
 ## Additional Tasks
-- [ ] Host frontend di Firebase Hosting
+- [x] Host frontend di Firebase Hosting
 - [ ] Integrasi Twilio untuk Whatsapp Bot
 - [ ] Django backend terkoneksi ke Shopify API
 
@@ -32,3 +33,4 @@ https://indomaguro.github.io/mainweb/
 - Brand-name Generator: https://businessnamegenerator.com/businessname/?bname=seafood+fish+meat
 - React with Shopify all complete: https://www.youtube.com/watch?v=yWyCZbSysMs&t=1589s
 - Great CSS framework: https://atomizecode.com/
+- Change navbar height: https://bootstrapious.com/p/how-to-change-bootstrap-navbar-height

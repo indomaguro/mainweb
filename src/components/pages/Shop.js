@@ -10,6 +10,7 @@ import React,{Component} from 'react';import{
 //import imgDadu from '../images/unagi.jpg';
 import imgSeafood from '../images/banner-seafood.png';
 import Client from 'shopify-buy';
+import {Helmet} from "react-helmet";
 
 // Initializing a client to return content in the store's primary language
 const client = Client.buildClient({
@@ -54,6 +55,14 @@ class Shop extends Component{
         //const datax=[1,2,3,4,5,6,7,8,9,10];
         return(
             <div>
+
+                <Helmet>
+                    <meta charSet="utf-8" />
+                    <title>My Title</title>
+                    <link rel="canonical" href="http://mysite.com/example" />
+                    <meta name="description" content="Shop page set description with react-helmet" />
+                </Helmet>
+
                 <div className="generalBanner">
                     <Image src={imgSeafood} className="imageFull" />
                 </div>
