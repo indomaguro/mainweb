@@ -24,7 +24,7 @@ class Home extends Component{
             {
               datax.map((value,index)=>{
                 return(
-                  <Col xs={6} md={4}>
+                  <Col xs={6} md={4} key={index}>
                     <Image src={imgDadu} thumbnail />
                   </Col>
                 );

@@ -69,10 +69,21 @@ body{
   filter: brightness(70%);
 }
 
+.imageItemFull{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+
 .generalBanner{
   width:100%;
   height: 150px;
   background-color: yellow;
+}
+
+.imageFrameItem{
+  width:17rem;
+  height: 17rem;
 }
 /*------------------------*/
 .hidden.menu {

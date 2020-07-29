@@ -99,11 +99,13 @@ class Shop extends Component{
                                 return(
                                   <Col xs={6} md={4} key={data.id}>
                                     <Card style={{ width: '17rem',margin:'10px',boxShadow:'5px 5px 5px #ddd' }} className="shop-item">
-                                        <Card.Img variant="top" src={data.images.map(x=>x.src)[0]} alt={index} />
+                                        <div className="imageFrameItem">
+                                            <img className="imageItemFull" src={data.images.map(x=>x.src)[0]} alt={index} />
+                                        </div>
                                         <Card.Body>
                                         <Card.Title>{data.title}</Card.Title>
                                         <Card.Text>
-                                        Price: {data.variants.map(x=>x.price)[0]}
+                                        IDR {data.variants.map(x=>x.price)[0]}
                                         </Card.Text>
                                             <div></div>
                                         </Card.Body>
