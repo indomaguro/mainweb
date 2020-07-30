@@ -47,7 +47,7 @@ npm run deploy
 ### Home page
 - [x] Navigation Bar
 - [x] Carousel
-- [ ] Eat & Drink : List all store represent by best capture image linked to store description page
+- [ ] Eat & Drink
 - [ ] Registration member
 - [ ] Member benefits
 - [ ] Events and Promo
@@ -57,3 +57,6 @@ npm run deploy
 - [x] Banner
 - [ ] Filter
 - [x] Item view
+
+## Logs
+- Jul 30, 2020 [Eat and Drink]: List all store represent by best capture image linked to store description page
