@@ -61,3 +61,4 @@ npm run deploy
 
 ## Logs
 - Jul 30, 2020 [Eat and Drink]: List all store represent by best capture image linked to store description page
+- Jul 30, 2020 [Eat and Drink]: Set title for each images. Put on the center of the images
