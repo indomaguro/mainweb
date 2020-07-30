@@ -14,8 +14,8 @@ import {Helmet} from "react-helmet";
 
 // Initializing a client to return content in the store's primary language
 const client = Client.buildClient({
-    domain: 'fishop-indonesia.myshopify.com',
-    storefrontAccessToken: 'b7ab11888030f54d1cffc844820e2fc0'
+    domain: process.env.REACT_APP_SHOPIFY_URL,
+    storefrontAccessToken: process.env.REACT_APP_STOREFRONT_ACCESS_TOKEN
   });
   
 
@@ -34,6 +34,8 @@ class Shop extends Component{
             console.log(products);
             this.setState({products});
         });
+
+        //console.log(process.env.REACT_APP_STOREFRONT_ACCESS_TOKEN);
         
     }
 
