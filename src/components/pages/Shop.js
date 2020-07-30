@@ -23,34 +23,44 @@ class Shop extends Component{
 
     state={
         products:[],
+        productTypes:[],
+        productType:'All',
     }
 
 
     componentDidMount(){
-        // Fetch all products in your shop
+
         client.product.fetchAll(24)
         .then((products) => {
             // Do something with the products
-            console.log(products);
+            //console.log(products);
             this.setState({products});
+
+            let productTypes=products.map((tp,idx)=>{
+                return tp.productType;
+            });
+
+            productTypes=productTypes.filter((tp,idx)=>productTypes.indexOf(tp)===idx);
+
+            //console.log(productTypes);
+
+            this.setState({productTypes});
+
         });
 
-        //console.log(process.env.REACT_APP_STOREFRONT_ACCESS_TOKEN);
+
+
+        //productTypes=[...new Set(productTypes)];
+
+        //this.setState({productTypes});
+
+        //console.log(productTypes);
         
     }
 
-    getProduct=(productId)=>{
-        let pr='';
-        client.product.fetch(productId)
-        .then((prd)=>{
-            //console.log(prd.images[0]);
-            let xpr=prd.images[0];
-            if(xpr && xpr.src){
-                pr=xpr.src;
-                //console.log(pr);
-            }
-        });
-        return pr.toString();
+    changeType=event=>{
+        this.setState({productType:event.target.value});
+        console.log(event.target.value+' clicked !');
     }
 
     render(){
@@ -74,22 +84,32 @@ class Shop extends Component{
                         <Col xs lg="3">
                             <h4>Filter</h4>
 
+                            <div>
+                                <select className="product-type" onChange={(event)=>this.changeType(event)}>
+                                    <option value="All">All</option>
+                                {
+                                    this.state.productTypes.map((tp,i)=>{
+                                        return (<option key={i}>{tp}</option>
+                                        );
+                                    })
+                                }
+                                </select>
+                            </div>
+
+                            <div>
+                                Type: {this.state.productType}
+                            </div>
+
+                            <h4>Pencarian</h4>
                             <Form>
                                 <Form.Group controlId="formBasicEmail">
-                                <Form.Label>Email address</Form.Label>
-                                <Form.Control type="email" placeholder="Enter email" />
+                                <Form.Label>Keyword</Form.Label>
+                                <Form.Control type="text" placeholder="Enter keyword" />
                                 <Form.Text className="text-muted">
                                     We'll never share your email with anyone else.
                                 </Form.Text>
                                 </Form.Group>
-                            
-                                <Form.Group controlId="formBasicPassword">
-                                <Form.Label>Password</Form.Label>
-                                <Form.Control type="password" placeholder="Password" />
-                                </Form.Group>
-                                <Form.Group controlId="formBasicCheckbox">
-                                <Form.Check type="checkbox" label="Check me out" />
-                                </Form.Group>
+
                                 <Button variant="primary" type="submit">
                                 Submit
                                 </Button>
