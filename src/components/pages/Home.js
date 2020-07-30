@@ -27,19 +27,15 @@ class Home extends Component{
             <div className="storeWeb">
               <div className="imgStoreWeb">
                 <Image src={imgNamasushi} className="imageItemFull" />
-                <strong>Nama Sushi</strong>
               </div>
               <div className="imgStoreWeb">
                 <Image src={imgRodin} className="imageItemFull" />
-                <strong>Rodin Patisserie</strong>
               </div>
               <div className="imgStoreWeb">
                 <Image src={imgShabumasa} className="imageItemFull" />
-                <strong>Shabu Masa</strong>
               </div>
               <div className="imgStoreWeb">
                 <Image src={imgSushimasa} className="imageItemFull" />
-                <strong>Sushi Masa</strong>
               </div>
             </div> 
       
