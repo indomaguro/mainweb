@@ -100,13 +100,13 @@ class Shop extends Component{
                                 Type: {this.state.productType}
                             </div>
 
-                            <h4>Pencarian</h4>
+                            <h4>Search</h4>
                             <Form>
                                 <Form.Group controlId="formBasicEmail">
                                 <Form.Label>Keyword</Form.Label>
                                 <Form.Control type="text" placeholder="Enter keyword" />
                                 <Form.Text className="text-muted">
-                                    We'll never share your email with anyone else.
+                                    Result will show related to Product Type choosen.
                                 </Form.Text>
                                 </Form.Group>
 

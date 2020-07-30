@@ -29,7 +29,8 @@ A main website with user-friendly layout conneced with shopify marketplace
 npm run deploy
 
 ## Display
-https://indomaguro.github.io/mainweb/
+- https://mshoponline.web.app/
+- https://mshoponline.firebaseapp.com/
 
 ## Ideas
 - Brand-name Generator: https://businessnamegenerator.com/businessname/?bname=seafood+fish+meat
@@ -38,3 +39,4 @@ https://indomaguro.github.io/mainweb/
 - Change navbar height: https://bootstrapious.com/p/how-to-change-bootstrap-navbar-height
 - Shopify Theme (Polaris) on React: https://www.youtube.com/watch?v=6hiGCw-dY9M
 - Shopify Polaris: https://polaris.shopify.com/components/get-started
+- Shopify paging: https://medium.com/@chris.geelhoed/how-to-paginate-results-with-shopifys-graphql-api-39435a5c9246

@@ -23,11 +23,20 @@ import Member from './components/pages/Member';
 import Shop from './components/pages/Shop';
 import News from './components/pages/News';
 import About from './components/pages/About';
+import {Helmet} from "react-helmet";
 
 function App() {
   
   return (
     <Router>
+
+      <Helmet>
+          <meta charSet="utf-8" />
+          <title>MShop Indonesia - Homey Title</title>
+          <link rel="canonical" href="http://mysite.com/example" />
+          <meta name="description" content="Shop page set description with react-helmet" />
+      </Helmet>
+
 
       <Navbar  bg="light" variant="light" expand="lg" sticky="top" >
         <Navbar.Brand href="/">MShop Indonesia</Navbar.Brand>
