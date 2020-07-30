@@ -7,12 +7,16 @@ import{
     Image, 
 } from 'react-bootstrap';
 
-import imgDadu from '../images/unagi.jpg';
+//import imgDadu from '../images/unagi.jpg';
 import Carouselx from '../Carouselx';
+import imgNamasushi from '../images/web-namasushi.jpg';
+import imgRodin from '../images/web-rodin.jpg';
+import imgShabumasa from '../images/web-shabumasa.jpg';
+import imgSushimasa from '../images/web-sushimasa.jpg';
 
 class Home extends Component{
     render(){
-        const datax=[1,2,3];
+        //const datax=[1,2,3,4,5,6];
         return(
             <div>
 
@@ -20,19 +24,26 @@ class Home extends Component{
 
 
             <Container className="eat-drink">
-            <Row>
-            {
-              datax.map((value,index)=>{
-                return(
-                  <Col xs={6} md={4} key={index}>
-                    <Image src={imgDadu} thumbnail />
-                  </Col>
-                );
-              })
-            }
-            </Row>
+            <div className="storeWeb">
+              <div className="imgStoreWeb">
+                <Image src={imgNamasushi} className="imageItemFull" />
+                <strong>Nama Sushi</strong>
+              </div>
+              <div className="imgStoreWeb">
+                <Image src={imgRodin} className="imageItemFull" />
+                <strong>Rodin Patisserie</strong>
+              </div>
+              <div className="imgStoreWeb">
+                <Image src={imgShabumasa} className="imageItemFull" />
+                <strong>Shabu Masa</strong>
+              </div>
+              <div className="imgStoreWeb">
+                <Image src={imgSushimasa} className="imageItemFull" />
+                <strong>Sushi Masa</strong>
+              </div>
+            </div> 
       
-          </Container>        
+          </Container>       
       
           <div>
             <Container>
