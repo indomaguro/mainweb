@@ -25,6 +25,7 @@ A main website with user-friendly layout conneced with shopify marketplace
 - [ ] Integrasi Twilio untuk Whatsapp Bot
 - [ ] Django backend terkoneksi ke Shopify API for blogging
 
+
 ## Command(s)
 npm run deploy
 
@@ -40,3 +41,19 @@ npm run deploy
 - Shopify Theme (Polaris) on React: https://www.youtube.com/watch?v=6hiGCw-dY9M
 - Shopify Polaris: https://polaris.shopify.com/components/get-started
 - Shopify paging: https://medium.com/@chris.geelhoed/how-to-paginate-results-with-shopifys-graphql-api-39435a5c9246
+
+
+## Progress
+### Home page
+- [x] Navigation Bar
+- [x] Carousel
+- [ ] Eat & Drink
+- [ ] Registration member
+- [ ] Member benefits
+- [ ] Events and Promo
+- [ ] News or Blog post
+
+### Shop page
+- [x] Banner
+- [ ] Filter
+- [x] Item view
