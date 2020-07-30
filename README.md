@@ -47,7 +47,7 @@ npm run deploy
 ### Home page
 - [x] Navigation Bar
 - [x] Carousel
-- [ ] Eat & Drink
+- [ ] Eat & Drink : List all store represent by best capture image linked to store description page
 - [ ] Registration member
 - [ ] Member benefits
 - [ ] Events and Promo
