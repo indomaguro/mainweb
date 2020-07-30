@@ -41,6 +41,7 @@ npm run deploy
 - Shopify Theme (Polaris) on React: https://www.youtube.com/watch?v=6hiGCw-dY9M
 - Shopify Polaris: https://polaris.shopify.com/components/get-started
 - Shopify paging: https://medium.com/@chris.geelhoed/how-to-paginate-results-with-shopifys-graphql-api-39435a5c9246
+- Free pictures: https://www.freepik.com
 
 
 ## Progress
