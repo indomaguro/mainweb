@@ -51,7 +51,7 @@ npm run deploy
 - [x] Carousel
 - [x] Eat & Drink
 - [x] Registration member
-- [ ] Member benefits
+- [x] Member benefits
 - [ ] Events and Promo
 - [ ] News or Blog post
 
