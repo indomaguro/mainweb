@@ -68,17 +68,6 @@ class Home extends Component{
       
           </Container>       
       
-          <div>
-            <Container>
-              <Row>
-                <Col>
-                <iframe title="xx23324324" src="https://www.google.com/maps/embed?pb=!4v1596012490423!6m8!1m7!1sCAoSLEFGMVFpcFBfSktEVnJTZ1k3dWNFOHNQUXQ3WHN1dnR3ckVpZVZESXc5MWg3!2m2!1d-6.101273366840912!2d106.8001694477426!3f260!4f10!5f0.7820865974627469" width="100%" height="450" frameBorder="0" style={{border:0}} allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
-                
-                </Col>
-              </Row>
-            </Container>
-          </div>      
-      
       
           <div className="memberpart">
           <Container>
@@ -132,7 +121,53 @@ class Home extends Component{
           </div>          
           </Container>
 
+          
+          <div className="newsPart">
+            <Container>
+            <h3>News</h3>
+              <div className="newsItem">  
+                <div className="newsImgPart">
+                  <Image src={imgRodin} className="newsImg"/>
+                </div>
+                <div className="newInfo">
+                  <h3>News title</h3>
+                  <p>New highlight This is because memberships are ongoing unless cancelled, and consequently...</p>
+                </div>
+              </div>
+              <div className="newsItem">  
+                <div className="newsImgPart">
+                  <Image src={imgRodin} className="newsImg"/>
+                </div>
+                <div className="newInfo">
+                  <h3>News title</h3>
+                  <p>New highlight This is because memberships are ongoing unless cancelled, and consequently...</p>
+                </div>
+              </div>
+              <div className="newsItem">  
+                <div className="newsImgPart">
+                  <Image src={imgRodin} className="newsImg"/>
+                </div>
+                <div className="newInfo">
+                  <h3>News title</h3>
+                  <p>New highlight This is because memberships are ongoing unless cancelled, and consequently...</p>
+                </div>
+              </div>
+              <Button variant="info">Show all</Button>
+            </Container>
+          </div>
+          
 
+          <div>
+            <Container>
+              <Row>
+                <Col>
+                <iframe title="xx23324324" src="https://www.google.com/maps/embed?pb=!4v1596012490423!6m8!1m7!1sCAoSLEFGMVFpcFBfSktEVnJTZ1k3dWNFOHNQUXQ3WHN1dnR3ckVpZVZESXc5MWg3!2m2!1d-6.101273366840912!2d106.8001694477426!3f260!4f10!5f0.7820865974627469" width="100%" height="450" frameBorder="0" style={{border:0}} allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
+                
+                </Col>
+              </Row>
+            </Container>
+          </div>      
+      
 
                 <Botbanner/>
             </div>
