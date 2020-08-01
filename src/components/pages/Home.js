@@ -4,7 +4,8 @@ import{
     Container,
     Row,
     Col,
-    Image, 
+    Image,
+    Button, 
 } from 'react-bootstrap';
 
 //import imgDadu from '../images/unagi.jpg';
@@ -13,6 +14,7 @@ import imgNamasushi from '../images/web-namasushi.jpg';
 import imgRodin from '../images/web-rodin.jpg';
 import imgShabumasa from '../images/web-shabumasa.jpg';
 import imgSushimasa from '../images/web-sushimasa.jpg';
+import imgDiscountMember from '../images/discount-member.jpg';
 
 class Home extends Component{
     render(){
@@ -81,12 +83,20 @@ class Home extends Component{
           <div className="memberpart">
           <Container>
             <Row>
-              <Col>
+              <Col className="memberpartItem">
+                <h3>Membership Program</h3>
                 <p>
                 It’s probably been said a thousand times, and it’s true: running a membership site allows you to generate recurring revenue. Members pay a monthly (or yearly) fee in exchange for access to your content, which also means you can constantly build upon your revenue every time you get more signups. But, it’s not just that; membership revenue can also be more predictable and reliable than some other business models. This is because memberships are ongoing unless cancelled, and consequently, your revenue from memberships doesn’t tend to fluctuate as much as revenue from one-off purchases.
                 </p>
+                <div>
+                  <Button variant="outline-info">Learn More</Button>
+                  &nbsp;
+                  <Button variant="info">Join Now</Button>
+                </div>
               </Col>
-              <Col></Col>
+              <Col className="memberpartItem">
+                <Image src={imgDiscountMember} className="memberImage" />
+              </Col>
             </Row>
           </Container>      
           </div>
