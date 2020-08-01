@@ -42,6 +42,7 @@ npm run deploy
 - Shopify Polaris: https://polaris.shopify.com/components/get-started
 - Shopify paging: https://medium.com/@chris.geelhoed/how-to-paginate-results-with-shopifys-graphql-api-39435a5c9246
 - Free pictures: https://www.freepik.com
+- Logo on top of navbar (bootstrap): https://codepen.io/davidcochran/pen/Dihnl
 
 
 ## Progress
@@ -62,3 +63,5 @@ npm run deploy
 ## Logs
 - Jul 30, 2020 [Eat and Drink]: List all store represent by best capture image linked to store description page
 - Jul 30, 2020 [Eat and Drink]: Set title for each images. Put on the center of the images
+- Aug 1, 2020 [News ]: Listed down some news at the bottom of the homepage
+- Aug 1, 2020 [Logo ]: Prepare some stuff in CSS to put the web's logo on top of navbar
