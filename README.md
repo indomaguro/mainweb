@@ -48,7 +48,7 @@ npm run deploy
 ### Home page
 - [x] Navigation Bar
 - [x] Carousel
-- [ ] Eat & Drink
+- [x] Eat & Drink
 - [x] Registration member
 - [ ] Member benefits
 - [ ] Events and Promo
