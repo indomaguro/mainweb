@@ -14,7 +14,8 @@ body{
 .imagebox{
   width: 100%;        
   border: 0px solid black;
-  height: 300px;
+  height: 600px;
+  border-bottom: lightgrey 1px solid;
 }
 
 .eat-drink{
