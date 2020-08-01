@@ -101,6 +101,39 @@ class Home extends Component{
           </Container>      
           </div>
 
+          <Container>     
+          <div className="image-testing-1"></div>     
+          <h3>Member Benefits</h3>
+          <div className="bg-img-memberbenefit">
+            <div className="benefit-item">
+              <div className="bg-img-1">
+                <Image src={imgDiscountMember} className="imgMemberBenefit" />
+              </div>
+              <div className="benefit-info">
+                <p>This is because memberships are ongoing unless cancelled, and consequently, your revenue from memberships doesn’t tend to fluctuate as much as revenue from one-off purchases.</p>
+              </div>            
+            </div>
+            <div className="benefit-item">
+              <div className="bg-img-1">
+                <Image src={imgDiscountMember} className="imgMemberBenefit" />
+              </div>
+              <div className="benefit-info">
+                <p>This is because memberships are ongoing unless cancelled, and consequently, your revenue from memberships doesn’t tend to fluctuate as much as revenue from one-off purchases.</p>
+              </div>            
+            </div>
+            <div className="benefit-item">
+              <div className="bg-img-1">
+                <Image src={imgDiscountMember} className="imgMemberBenefit" />
+              </div>
+              <div className="benefit-info">
+                <p>This is because memberships are ongoing unless cancelled, and consequently, your revenue from memberships doesn’t tend to fluctuate as much as revenue from one-off purchases.</p>
+              </div>            
+            </div>
+          </div>          
+          </Container>
+
+
+
                 <Botbanner/>
             </div>
         )
