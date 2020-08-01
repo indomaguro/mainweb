@@ -49,7 +49,7 @@ npm run deploy
 - [x] Navigation Bar
 - [x] Carousel
 - [ ] Eat & Drink
-- [ ] Registration member
+- [x] Registration member
 - [ ] Member benefits
 - [ ] Events and Promo
 - [ ] News or Blog post
