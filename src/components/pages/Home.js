@@ -25,18 +25,43 @@ class Home extends Component{
 
             <Container className="eat-drink">
             <div className="storeWeb">
-              <div className="imgStoreWeb">
-                <Image src={imgNamasushi} className="imageItemFull" />
-              </div>
-              <div className="imgStoreWeb">
-                <Image src={imgRodin} className="imageItemFull" />
-              </div>
-              <div className="imgStoreWeb">
-                <Image src={imgShabumasa} className="imageItemFull" />
-              </div>
-              <div className="imgStoreWeb">
-                <Image src={imgSushimasa} className="imageItemFull" />
-              </div>
+
+              <a className="infoStoreWeb" href="/">
+                <div className="imgStoreWeb">
+                  <Image src={imgNamasushi} className="imageItem" />
+                </div>
+                <div className="titleStoreWeb">
+                  <p>Nama Sushi</p>
+                </div>
+              </a>
+
+              <a className="infoStoreWeb" href="/">
+                <div className="imgStoreWeb">
+                  <Image src={imgRodin} className="imageItem" />
+                </div>
+                <div className="titleStoreWeb">
+                  <p>Rodin Patiserrie</p>
+                </div>
+              </a>
+
+              <a className="infoStoreWeb" href="/">
+                <div className="imgStoreWeb">
+                  <Image src={imgShabumasa} className="imageItem" />
+                </div>
+                <div className="titleStoreWeb">
+                  <p>Shabu Masa</p>
+                </div>
+              </a>              
+
+              <a className="infoStoreWeb" href="/">
+                <div className="imgStoreWeb">
+                  <Image src={imgSushimasa} className="imageItem" />
+                </div>
+                <div className="titleStoreWeb">
+                  <p>Sushi Masa</p>
+                </div>
+              </a>         
+
             </div> 
       
           </Container>       

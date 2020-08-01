@@ -76,7 +76,13 @@ body{
   object-fit: cover;
 }
 
-.imgStoreWeb{
+.imageItem{
+  width:98%;
+  height:98%;
+  object-fit: cover;
+}
+
+.infoStoreWeb{
   width:300px;
   height: 300px;
   margin:8px;
@@ -85,21 +91,41 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: black;
-  color:darkblue;
-  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  background-color: #000;
   border-radius: 3px;
-  cursor: pointer;
 }
 
-.imgStoreWeb:hover{
-  border:1px solid black;
+.infoStoreWeb:hover{
+  box-shadow: 5px 5px 5px #888;
 }
 
 .storeWeb{
   display:flex;
   flex-direction: row;
+
+  margin-top: 20px;
 }
+
+.imgStoreWeb{
+  width: 260px;
+  height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titleStoreWeb{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titleStoreWeb p{
+  color:white;
+  font-weight: bolder;
+  /*text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;*/
+}
+
 
 .generalBanner{
   width:100%;
