@@ -70,3 +70,4 @@ npm run deploy
 - Aug 1, 2020 [Logo ]: Prepare some stuff in CSS to put the web's logo on top of navbar
 - Aug 3, 2020 [Home ]: Remove all css custom, set all components to use react-boostrap [mobile friendly ]
 - Aug 3, 2020 [Home ]: Get all images from trello
+- Aug 3, 2020 [Shop ]: Set breadcrumbs after banner
