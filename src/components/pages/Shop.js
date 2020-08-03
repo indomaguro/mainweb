@@ -129,11 +129,11 @@ class Shop extends Component{
                             {
                               this.state.products.map((data,index)=>{
                                 return(
-                                    <div key={data.id} className="shop-item">
+                                    <a key={data.id} className="shop-item" href="/">
                                     <Image src={data.images.map(x=>x.src)[0]} alt={index} rounded fluid className="shop-item-image"/>
                                     <div class="shop-item-title shop-item-text">{data.title}</div>
                                     <div class="shop-item-price shop-item-text">IDR {data.variants.map(x=>x.price)[0]}</div>
-                                    </div>   
+                                    </a>   
                                 );
                               })
                             }
