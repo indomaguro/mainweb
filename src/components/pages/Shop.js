@@ -82,7 +82,7 @@ class Shop extends Component{
                 <Container fluid>
 
                     <Row>
-                        <Col xs lg="3">
+                        <Col xs lg="2">
                             <h4>Filter</h4>
 
                             <div>

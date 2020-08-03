@@ -45,6 +45,7 @@ npm run deploy
 - Logo on top of navbar (bootstrap): https://codepen.io/davidcochran/pen/Dihnl
 - Mobile friendly tester: https://search.google.com/test/mobile-friendly
 - Autohide soldout variants: https://shopify.dev/tutorials/customize-theme-hide-variants-that-are-sold-out#hide-sold-out-variants-sectioned-themes-specific
+- Shopify NPM GraphQL: https://www.npmjs.com/package/@shopify/react-graphql
 
 
 ## Progress
@@ -68,3 +69,4 @@ npm run deploy
 - Aug 1, 2020 [News ]: Listed down some news at the bottom of the homepage
 - Aug 1, 2020 [Logo ]: Prepare some stuff in CSS to put the web's logo on top of navbar
 - Aug 3, 2020 [Home ]: Remove all css custom, set all components to use react-boostrap [mobile friendly ]
+- Aug 3, 2020 [Home ]: Get all images from trello

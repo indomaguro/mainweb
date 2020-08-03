@@ -126,7 +126,7 @@ class Home extends Component{
             <h3>News</h3>
               <div className="newsItem">  
                 <div className="newsImgPart">
-                  <Image src={imgRodin} thumbnail/>
+                  <Image src={imgNamasushi} thumbnail/>
                 </div>
                 <div className="newInfo">
                   <h3>News title</h3>
@@ -144,7 +144,7 @@ class Home extends Component{
               </div>
               <div className="newsItem">  
                 <div className="newsImgPart">
-                  <Image src={imgRodin} thumbnail/>
+                  <Image src={imgSushimasa} thumbnail/>
                 </div>
                 <div className="newInfo">
                   <h3>News title</h3>
