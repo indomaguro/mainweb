@@ -66,3 +66,4 @@ npm run deploy
 - Jul 30, 2020 [Eat and Drink]: Set title for each images. Put on the center of the images
 - Aug 1, 2020 [News ]: Listed down some news at the bottom of the homepage
 - Aug 1, 2020 [Logo ]: Prepare some stuff in CSS to put the web's logo on top of navbar
+- Aug 3, 2020 [Home ]: Remove all css custom, set all components to use react-boostrap [mobile friendly ]
