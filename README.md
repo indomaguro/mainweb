@@ -44,6 +44,7 @@ npm run deploy
 - Free pictures: https://www.freepik.com
 - Logo on top of navbar (bootstrap): https://codepen.io/davidcochran/pen/Dihnl
 - Mobile friendly tester: https://search.google.com/test/mobile-friendly
+- Autohide soldout variants: https://shopify.dev/tutorials/customize-theme-hide-variants-that-are-sold-out#hide-sold-out-variants-sectioned-themes-specific
 
 
 ## Progress

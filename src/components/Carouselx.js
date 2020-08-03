@@ -1,8 +1,9 @@
 import React,{useEffect} from 'react';
-import imgMukadimah from './images/mukadimah.jpg';
-import imgBrands from './images/fishop-brands.png';
+//import imgMukadimah from './images/mukadimah.jpg';
+//import imgBrands from './images/fishop-brands.png';
 import img1 from './images/23062.jpg';
 import img2 from './images/25710.jpg';
+import img3 from './images/8551.jpg';
 //import imgStore from './images/Fishop_store2.jpg';
 //import $ from 'jquery';
 //import ReactDOM from 'react-dom';
@@ -54,7 +55,7 @@ const Carouselx=()=>{
           <div className="imagebox">
             <img
               className="d-block w-100 carox"
-              src={img1}
+              src={img3}
               alt="Third slide"
             />          
           </div>
