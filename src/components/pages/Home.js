@@ -25,47 +25,46 @@ class Home extends Component{
             <Carouselx/>
 
 
-            <Container className="eat-drink">
-            <div className="storeWeb">
+            <Container className="eat-drinkXX">
+            <Row className="storeWebXX">
 
-              <a className="infoStoreWeb" href="/">
-                <div className="imgStoreWeb">
-                  <Image src={imgNamasushi} className="imageItem" />
+              <Col className="infoStoreWebXX" >
+                <div className="imgStoreWebXX">
+                  <Image src={imgNamasushi} thumbnail />
                 </div>
-                <div className="titleStoreWeb">
+                <div className="titleStoreWebXX">
                   <p>Nama Sushi</p>
                 </div>
-              </a>
+              </Col>
 
-              <a className="infoStoreWeb" href="/">
-                <div className="imgStoreWeb">
-                  <Image src={imgRodin} className="imageItem" />
+              <Col className="infoStoreWebXX" >
+                <div className="imgStoreWebXX">
+                  <Image src={imgRodin} thumbnail />
                 </div>
-                <div className="titleStoreWeb">
+                <div className="titleStoreWebXX">
                   <p>Rodin Patiserrie</p>
                 </div>
-              </a>
+              </Col>
 
-              <a className="infoStoreWeb" href="/">
-                <div className="imgStoreWeb">
-                  <Image src={imgShabumasa} className="imageItem" />
+              <Col className="infoStoreWebXX" >
+                <div className="imgStoreWebXX">
+                  <Image src={imgShabumasa} thumbnail />
                 </div>
-                <div className="titleStoreWeb">
+                <div className="titleStoreWebXX">
                   <p>Shabu Masa</p>
                 </div>
-              </a>              
+              </Col>              
 
-              <a className="infoStoreWeb" href="/">
-                <div className="imgStoreWeb">
-                  <Image src={imgSushimasa} className="imageItem" />
+              <Col className="infoStoreWebXX" >
+                <div className="imgStoreWebXX">
+                  <Image src={imgSushimasa} thumbnail />
                 </div>
-                <div className="titleStoreWeb">
+                <div className="titleStoreWebXX">
                   <p>Sushi Masa</p>
                 </div>
-              </a>         
+              </Col>         
 
-            </div> 
-      
+            </Row> 
           </Container>       
       
       
@@ -84,7 +83,7 @@ class Home extends Component{
                 </div>
               </Col>
               <Col className="memberpartItem">
-                <Image src={imgDiscountMember} className="memberImage" />
+                <Image src={imgDiscountMember} thumbnail />
               </Col>
             </Row>
           </Container>      
@@ -96,7 +95,7 @@ class Home extends Component{
           <div className="bg-img-memberbenefit">
             <div className="benefit-item">
               <div className="bg-img-1">
-                <Image src={imgDiscountMember} className="imgMemberBenefit" />
+                <Image src={imgDiscountMember} thumbnail/>
               </div>
               <div className="benefit-info">
                 <p>This is because memberships are ongoing unless cancelled, and consequently, your revenue from memberships doesn’t tend to fluctuate as much as revenue from one-off purchases.</p>
@@ -104,7 +103,7 @@ class Home extends Component{
             </div>
             <div className="benefit-item">
               <div className="bg-img-1">
-                <Image src={imgDiscountMember} className="imgMemberBenefit" />
+                <Image src={imgDiscountMember} thumbnail />
               </div>
               <div className="benefit-info">
                 <p>This is because memberships are ongoing unless cancelled, and consequently, your revenue from memberships doesn’t tend to fluctuate as much as revenue from one-off purchases.</p>
@@ -112,7 +111,7 @@ class Home extends Component{
             </div>
             <div className="benefit-item">
               <div className="bg-img-1">
-                <Image src={imgDiscountMember} className="imgMemberBenefit" />
+                <Image src={imgDiscountMember} thumbnail />
               </div>
               <div className="benefit-info">
                 <p>This is because memberships are ongoing unless cancelled, and consequently, your revenue from memberships doesn’t tend to fluctuate as much as revenue from one-off purchases.</p>
@@ -127,7 +126,7 @@ class Home extends Component{
             <h3>News</h3>
               <div className="newsItem">  
                 <div className="newsImgPart">
-                  <Image src={imgRodin} className="newsImg"/>
+                  <Image src={imgRodin} thumbnail/>
                 </div>
                 <div className="newInfo">
                   <h3>News title</h3>
@@ -136,7 +135,7 @@ class Home extends Component{
               </div>
               <div className="newsItem">  
                 <div className="newsImgPart">
-                  <Image src={imgRodin} className="newsImg"/>
+                  <Image src={imgRodin} thumbnail/>
                 </div>
                 <div className="newInfo">
                   <h3>News title</h3>
@@ -145,7 +144,7 @@ class Home extends Component{
               </div>
               <div className="newsItem">  
                 <div className="newsImgPart">
-                  <Image src={imgRodin} className="newsImg"/>
+                  <Image src={imgRodin} thumbnail/>
                 </div>
                 <div className="newInfo">
                   <h3>News title</h3>
