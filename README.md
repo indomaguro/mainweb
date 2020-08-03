@@ -43,6 +43,7 @@ npm run deploy
 - Shopify paging: https://medium.com/@chris.geelhoed/how-to-paginate-results-with-shopifys-graphql-api-39435a5c9246
 - Free pictures: https://www.freepik.com
 - Logo on top of navbar (bootstrap): https://codepen.io/davidcochran/pen/Dihnl
+- Mobile friendly tester: https://search.google.com/test/mobile-friendly
 
 
 ## Progress
