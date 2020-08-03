@@ -229,6 +229,7 @@ body{
 .shop-list-item{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .shop-item{
   width: 300px;
@@ -261,6 +262,19 @@ body{
   font-weight: bold;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+.shop-two-frames{
+  display: flex;
+  flex-direction: row;
+}
+.shop-first-frame{
+  flex:1;
+  max-width: 300px;
+}
+.shop-second-frame{
+  flex:4;
+  text-align: center;
+}
+
 /* EOF - Shop.js */
 
 /*------------------------*/

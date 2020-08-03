@@ -5,8 +5,8 @@ import React,{Component} from 'react';import{
     Image, 
     Form,
     Button,
-    Card,
-    CardColumns,
+    //Card,
+    //CardColumns,
 } from 'react-bootstrap';
 //import imgDadu from '../images/unagi.jpg';
 import imgSeafood from '../images/banner-seafood.png';
@@ -80,9 +80,8 @@ class Shop extends Component{
                     <Image src={imgSeafood} className="imageFull" />
                 </div>
                 <Container fluid>
-
-                    <Row>
-                        <Col xs lg="2">
+                    <div className="shop-two-frames">
+                        <div className="shop-first-frame">
                             <h4>Filter</h4>
 
                             <div>
@@ -118,8 +117,8 @@ class Shop extends Component{
 
 
 
-                        </Col>
-                        <Col>
+                        </div>
+                        <div className="shop-second-frame">
                             <h4>Item</h4>
 
 
@@ -143,8 +142,8 @@ class Shop extends Component{
                             </div>
 
 
-                        </Col>
-                    </Row>
+                        </div>
+                    </div>    
                 </Container>
 
             </div>
