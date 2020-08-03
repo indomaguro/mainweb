@@ -71,9 +71,6 @@ body{
   background-color:#ffffff;
 }
 
-.shop-item:hover{
-  border:1px solid black;
-}
 
 .imageFull{
   width:100%;
@@ -227,6 +224,45 @@ body{
   margin-top: 23px;
   padding: 9px 10px !important;
 }
+
+/* BOF - Shop.js */
+.shop-list-item{
+  display: flex;
+  flex-wrap: wrap;
+}
+.shop-item{
+  width: 300px;
+  height: 300px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+
+  position: relative;
+  text-align: center;
+}
+.shop-item:hover{
+}
+.shop-item-image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.shop-item-title{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+.shop-item-price{
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+.shop-item-text{
+  color: white;
+  font-weight: bold;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+/* EOF - Shop.js */
+
 /*------------------------*/
 .hidden.menu {
   display: none;

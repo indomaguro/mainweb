@@ -6,6 +6,7 @@ import React,{Component} from 'react';import{
     Form,
     Button,
     Card,
+    CardColumns,
 } from 'react-bootstrap';
 //import imgDadu from '../images/unagi.jpg';
 import imgSeafood from '../images/banner-seafood.png';
@@ -78,7 +79,7 @@ class Shop extends Component{
                 <div className="generalBanner">
                     <Image src={imgSeafood} className="imageFull" />
                 </div>
-                <Container>
+                <Container fluid>
 
                     <Row>
                         <Col xs lg="3">
@@ -123,32 +124,24 @@ class Shop extends Component{
 
 
 
-                            <div className="eat-drink">
-                            <Row>
+                            
+
+                            <div className="shop-list-item">
                             {
                               this.state.products.map((data,index)=>{
                                 return(
-                                  <Col xs={6} md={4} key={data.id}>
-                                    <Card style={{ width: '17rem',margin:'10px',boxShadow:'5px 5px 5px #ddd' }} className="shop-item">
-                                        <div className="imageFrameItem">
-                                            <img className="imageItemFull" src={data.images.map(x=>x.src)[0]} alt={index} />
-                                        </div>
-                                        <Card.Body>
-                                        <Card.Title>{data.title}</Card.Title>
-                                        <Card.Text>
-                                        IDR {data.variants.map(x=>x.price)[0]}
-                                        </Card.Text>
-                                            <div></div>
-                                        </Card.Body>
-                                    </Card>
-
-                                  </Col>
+                                    <div key={data.id} className="shop-item">
+                                    <Image src={data.images.map(x=>x.src)[0]} alt={index} rounded fluid className="shop-item-image"/>
+                                    <div class="shop-item-title shop-item-text">{data.title}</div>
+                                    <div class="shop-item-price shop-item-text">IDR {data.variants.map(x=>x.price)[0]}</div>
+                                    </div>   
                                 );
                               })
                             }
-                            </Row>
+
                       
-                          </div>   
+                            </div>
+
 
                         </Col>
                     </Row>
