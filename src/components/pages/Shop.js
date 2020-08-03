@@ -1,12 +1,13 @@
 import React,{Component} from 'react';import{
     Container,
-    Row,
-    Col,
+    //Row,
+    //Col,
     Image, 
     Form,
     Button,
     //Card,
     //CardColumns,
+    Breadcrumb,
 } from 'react-bootstrap';
 //import imgDadu from '../images/unagi.jpg';
 import imgSeafood from '../images/banner-seafood.png';
@@ -79,6 +80,13 @@ class Shop extends Component{
                 <div className="generalBanner">
                     <Image src={imgSeafood} className="imageFull" />
                 </div>
+
+                <Breadcrumb>
+                            <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
+                            <Breadcrumb.Item active>Shop</Breadcrumb.Item>
+                        </Breadcrumb>
+
+
                 <Container fluid>
                     <div className="shop-two-frames">
                         <div className="shop-first-frame">
@@ -115,13 +123,9 @@ class Shop extends Component{
                                 </Button>
                             </Form>
 
-
-
                         </div>
                         <div className="shop-second-frame">
-                            <h4>Item</h4>
-
-
+                        
 
                             
 
