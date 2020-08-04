@@ -71,3 +71,4 @@ npm run deploy
 - Aug 3, 2020 [Home ]: Remove all css custom, set all components to use react-boostrap [mobile friendly ]
 - Aug 3, 2020 [Home ]: Get all images from trello
 - Aug 3, 2020 [Shop ]: Set breadcrumbs after banner
+- Aug 4, 2020 [Shop ]:
