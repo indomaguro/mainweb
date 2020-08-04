@@ -45,6 +45,7 @@ npm run deploy
 - Logo on top of navbar (bootstrap): https://codepen.io/davidcochran/pen/Dihnl
 - Mobile friendly tester: https://search.google.com/test/mobile-friendly
 - Autohide soldout variants: https://shopify.dev/tutorials/customize-theme-hide-variants-that-are-sold-out#hide-sold-out-variants-sectioned-themes-specific
+- Autohide out-of-stock: https://help.shopify.com/en/manual/products/inventory/hide-out-of-stock
 - Shopify NPM GraphQL: https://www.npmjs.com/package/@shopify/react-graphql
 
 
