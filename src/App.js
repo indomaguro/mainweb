@@ -24,6 +24,7 @@ import Shop from './components/pages/Shop';
 import News from './components/pages/News';
 import About from './components/pages/About';
 import {Helmet} from "react-helmet";
+import Product from './components/pages/Product';
 
 function App() {
   
@@ -73,6 +74,7 @@ function App() {
         <Route path="/shop" component={Shop} exact />
         <Route path="/news" component={News} exact />
         <Route path="/about" component={About} exact />
+        <Route path="/product/:id" component={Product} exact />
       </div>
 
       <Footer/>
