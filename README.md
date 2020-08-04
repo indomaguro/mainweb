@@ -12,6 +12,8 @@ A main website with user-friendly layout conneced with shopify marketplace
 - https://react-bootstrap.github.io/
 - https://shopify.github.io/js-buy-sdk/
 - https://www.npmjs.com/package/react-helmet
+- https://www.npmjs.com/package/graphql
+- https://www.npmjs.com/package/axios
 
 ## Task(s)
 - [x] Persiapan kerangka
@@ -47,6 +49,7 @@ npm run deploy
 - Autohide soldout variants: https://shopify.dev/tutorials/customize-theme-hide-variants-that-are-sold-out#hide-sold-out-variants-sectioned-themes-specific
 - Autohide out-of-stock: https://help.shopify.com/en/manual/products/inventory/hide-out-of-stock
 - Shopify NPM GraphQL: https://www.npmjs.com/package/@shopify/react-graphql
+- Shopify GraphQL installed as an app: https://fishop-indonesia.myshopify.com/admin/apps/5a3c93b0e9bc8d5abf63531fcd829b5d/
 
 
 ## Progress
