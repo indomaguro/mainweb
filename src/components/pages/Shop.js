@@ -1,4 +1,6 @@
-import React,{Component} from 'react';import{
+import React,{Component} from 'react';
+//import axios from 'axios';
+import{
     Container,
     //Row,
     //Col,
@@ -18,7 +20,6 @@ const client = Client.buildClient({
     domain: process.env.REACT_APP_SHOPIFY_URL,
     storefrontAccessToken: process.env.REACT_APP_STOREFRONT_ACCESS_TOKEN
   });
-  
 
 class Shop extends Component{
 
@@ -56,6 +57,7 @@ class Shop extends Component{
         //this.setState({productTypes});
 
         //console.log(productTypes);
+
         
     }
 
