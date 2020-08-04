@@ -5,7 +5,7 @@ const Product=()=>{
     let {id}=useParams();
     return(
         <div className="product-main">
-            <h3>Product Page id: {id}</h3>
+            <h3>Product ID: {id}</h3>
         </div>
     )
 }
