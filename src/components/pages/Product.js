@@ -28,6 +28,7 @@ const Product=()=>{
             setImg(prd.images[0].src);
             let igs=prd.images.map(x=>x.src);
             setImgs(igs);
+            
             setVariants(prd.variants.map(x=>x));//set only if x.available===true on the next step
 
             console.log(prd);

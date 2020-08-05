@@ -35,7 +35,7 @@ class Shop extends Component{
         client.product.fetchAll(24)
         .then((products) => {
             // Do something with the products
-            //console.log(products);
+            console.log(products);
             this.setState({products});
 
             let productTypes=products.map((tp,idx)=>{

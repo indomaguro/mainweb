@@ -14,6 +14,7 @@ A main website with user-friendly layout conneced with shopify marketplace
 - https://www.npmjs.com/package/react-helmet
 - https://www.npmjs.com/package/graphql
 - https://www.npmjs.com/package/axios
+- https://www.npmjs.com/package/image-thumbnail
 
 ## Task(s)
 - [x] Persiapan kerangka
