@@ -259,6 +259,7 @@ body{
   position: absolute;
   bottom: 8px;
   right: 16px;
+  visibility: hidden;
 }
 .shop-item-text{
   color: white;
@@ -279,6 +280,28 @@ body{
 }
 
 /* EOF - Shop.js */
+
+
+/* BOF - Product */
+.product-image-option{
+  max-width:200px;
+}
+.product-mid-part{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.product-images{
+  flex:2;
+}
+.product-actions{
+  flex:1;
+}
+.product-var-title{
+  display: flex;
+  flex-direction: row;
+}
+/* EOF - Product */
 
 /*------------------------*/
 .hidden.menu {
