@@ -91,21 +91,21 @@ body{
   object-fit: cover;
 }
 
-.infoStoreWeb{
-  width:300px;
-  height: 300px;
-  margin:8px;
-  box-shadow: 5px 5px 5px #ddd;
+/* BOF Home.js */
+
+.home-store-collection{
   display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #000;
-  border-radius: 3px;
+  text-decoration: none;
+  color: black;
 }
 
-.infoStoreWeb:hover{
-  box-shadow: 5px 5px 5px #888;
+.home-store-collection:hover{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
 .storeWeb{
@@ -134,6 +134,8 @@ body{
   font-weight: bolder;
   /*text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;*/
 }
+
+/* EOF Home.js */
 
 .bg-img-memberbenefit{
   display: flex;
@@ -225,6 +227,10 @@ body{
   padding: 9px 10px !important;
 }
 
+/* BOF - App.js */
+
+/* EOF - App.js */
+
 /* BOF - Shop.js */
 .shop-list-item{
   display: flex;
@@ -259,6 +265,7 @@ body{
   position: absolute;
   bottom: 8px;
   right: 16px;
+  visibility: hidden;
 }
 .shop-item-text{
   color: white;
@@ -279,6 +286,87 @@ body{
 }
 
 /* EOF - Shop.js */
+
+
+/* BOF - Product.js */
+.product-image-option{
+  max-width:200px;
+}
+.product-mid-part{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.product-images{
+  flex:2;
+}
+.product-actions{
+  flex:1;
+}
+.product-var-title{
+  display: flex;
+  flex-direction: row;
+}
+/* EOF - Product.js */
+
+/* BOF - Store.js */
+.store-page{
+
+}
+.store-banner{
+  width:100%;
+  height: 250px;
+}
+
+.store-banner-img{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  filter: brightness(50%); 
+}
+.store-navigator{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  padding:2px;
+}
+.store-desc h3{
+  text-align: center;
+}
+.store-desc h5{
+  text-align: center;
+}
+.store-desc p{
+  text-align: justify;
+  text-justify: inter-word;
+  max-width: 600px;
+  margin:0px auto;
+}
+.store-gallery{
+  text-align: center;
+  padding-bottom:20px;
+  padding-top: 20px;
+  background-color: #f0f0f0;
+}
+.store-promo{
+  text-align: center;
+}
+.store-promo-gallery{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.store-promo-item-image{
+  max-width: 300px;
+}
+.store-promo-item{
+  padding:5px;
+}
+.store-location{
+  text-align: center;
+}
+/* EOF - Store */
 
 /*------------------------*/
 .hidden.menu {

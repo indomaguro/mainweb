@@ -25,47 +25,47 @@ class Home extends Component{
             <Carouselx/>
 
 
-            <Container className="eat-drinkXX">
-            <Row className="storeWebXX">
+            <div className="container eat-drinkXX">
+            <div className="row storeWebXX">
 
-              <Col className="infoStoreWebXX" >
+              <a href="/eat-drink/nama-sushi" className="col home-store-collection" >
                 <div className="imgStoreWebXX">
                   <Image src={imgNamasushi} thumbnail />
                 </div>
                 <div className="titleStoreWebXX">
                   <p>Nama Sushi</p>
                 </div>
-              </Col>
+              </a>
 
-              <Col className="infoStoreWebXX" >
+              <a href="/eat-drink/rodin" className="col home-store-collection" >
                 <div className="imgStoreWebXX">
                   <Image src={imgRodin} thumbnail />
                 </div>
                 <div className="titleStoreWebXX">
                   <p>Rodin Patiserrie</p>
                 </div>
-              </Col>
+              </a>
 
-              <Col className="infoStoreWebXX" >
+              <a href="/eat-drink/shabu-masa" className="col home-store-collection" >
                 <div className="imgStoreWebXX">
                   <Image src={imgShabumasa} thumbnail />
                 </div>
                 <div className="titleStoreWebXX">
                   <p>Shabu Masa</p>
                 </div>
-              </Col>              
+              </a>              
 
-              <Col className="infoStoreWebXX" >
+              <a href="/eat-drink/sushi-masa" className="col home-store-collection" >
                 <div className="imgStoreWebXX">
                   <Image src={imgSushimasa} thumbnail />
                 </div>
                 <div className="titleStoreWebXX">
                   <p>Sushi Masa</p>
                 </div>
-              </Col>         
+              </a>         
 
-            </Row> 
-          </Container>       
+            </div> 
+          </div>       
       
       
           <div className="memberpart">

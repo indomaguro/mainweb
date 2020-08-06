@@ -5,17 +5,8 @@ import {
   Switch,
 //  Link,
 } from 'react-router-dom';
-import { 
-  Button, 
-  Nav,
-  Navbar,
-  Form,
-  NavDropdown,
-  FormControl,
 
-} from 'react-bootstrap';
-
-//import logo from './logo.svg';
+import logo from './logo.svg';
 import './App.css';
 import Home from './components/pages/Home';
 import Footer from './components/Footer';
@@ -25,6 +16,7 @@ import News from './components/pages/News';
 import About from './components/pages/About';
 import {Helmet} from "react-helmet";
 import Product from './components/pages/Product';
+import Store from './components/pages/Store';
 
 function App() {
   
@@ -37,8 +29,7 @@ function App() {
           <link rel="canonical" href="http://mysite.com/example" />
           <meta name="description" content="Shop page set description with react-helmet" />
       </Helmet>
-
-
+{/*
       <Navbar  bg="light" variant="light" expand="lg" sticky="top" >
         <Navbar.Brand href="/">MShop Indonesia</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -46,11 +37,12 @@ function App() {
           <Nav className="mx-auto">
             <Nav.Link href="/">HOME</Nav.Link>
             <NavDropdown title="EAT & DRINK" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Item href="/eat-drink/sushi-masa">Sushi Masa</NavDropdown.Item>
+              <NavDropdown.Item href="/eat-drink/rodin">Rodin Patiserrie</NavDropdown.Item>
+              <NavDropdown.Item href="/eat-drink/shabu-masa">Shabu Masa</NavDropdown.Item>
+              <NavDropdown.Item href="/eat-drink/nama-sushi">Nama Sushi</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+              <NavDropdown.Item href="/eat-drink/">Show all</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/member">MEMBERSHIP</Nav.Link>
             <Nav.Link href="/shop">SHOP</Nav.Link>
@@ -63,6 +55,50 @@ function App() {
           </Form>
         </Navbar.Collapse>
       </Navbar>
+  */}
+      <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <a className="navbar-brand" href="/">MShop Indonesia</a>
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav mx-auto">
+            <li className="nav-item active">
+              <a className="nav-link" href="/">HOME <span className="sr-only">(current)</span></a>
+            </li>
+            <li className="nav-item dropdown">
+              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                EAT & DRINK
+              </a>
+              <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a className="dropdown-item" href="/eat-drink/sushi-masa">Sushi Masa</a>
+                <a className="dropdown-item" href="/eat-drink/rodin">Rodin Patiserrie</a>
+                <a className="dropdown-item" href="/eat-drink/shabu-masa">Shabu Masa</a>
+                <a className="dropdown-item" href="/eat-drink/nama-sushi">Nama Sushi</a>
+                <div className="dropdown-divider"></div>
+                <a className="dropdown-item" href="/eat-drink">Show all</a>
+              </div>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/member">MEMBERSHIP</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/shop">SHOP</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/news">NEWS</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/about">ABOUT</a>
+            </li>
+          </ul>
+          <form className="form-inline my-2 my-lg-0">
+            <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+            <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
 
       <div className="page-space">
         <Switch>
@@ -71,10 +107,11 @@ function App() {
         </Switch>
 
         <Route path="/member" component={Member} exact />
-        <Route path="/shop" component={Shop} exact />
+        <Route path="/shop-promo" component={Shop} exact />
         <Route path="/news" component={News} exact />
         <Route path="/about" component={About} exact />
         <Route path="/product/:id" component={Product} exact />
+        <Route path="/eat-drink" component={Store} />
       </div>
 
       <Footer/>
