@@ -77,3 +77,4 @@ npm run deploy
 - Aug 3, 2020 [Home ]: Get all images from trello
 - Aug 3, 2020 [Shop ]: Set breadcrumbs after banner
 - Aug 4, 2020 [Shop ]: Update package.json. Plan to move react-bootstap to original bootstap
+- Aug 6, 2020 [App ]: Remove react-boostrap out of the module
