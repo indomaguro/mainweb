@@ -16,6 +16,7 @@ import News from './components/pages/News';
 import About from './components/pages/About';
 import {Helmet} from "react-helmet";
 import Product from './components/pages/Product';
+import Store from './components/pages/Store';
 
 function App() {
   
@@ -106,10 +107,11 @@ function App() {
         </Switch>
 
         <Route path="/member" component={Member} exact />
-        <Route path="/shop" component={Shop} exact />
+        <Route path="/shop-promo" component={Shop} exact />
         <Route path="/news" component={News} exact />
         <Route path="/about" component={About} exact />
         <Route path="/product/:id" component={Product} exact />
+        <Route path="/eat-drink" component={Store} />
       </div>
 
       <Footer/>
