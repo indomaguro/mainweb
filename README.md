@@ -80,3 +80,4 @@ npm run deploy
 - Aug 4, 2020 [Shop ]: Update package.json. Plan to move react-bootstap to original bootstap
 - Aug 6, 2020 [App ]: Remove react-boostrap out of the module
 - Aug 6, 2020 [App ]: Create Store.js as the template for each stores
+- Aug 7, 2020 [About ]: Page created, set description and put brands' logo 

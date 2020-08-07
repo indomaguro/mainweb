@@ -368,6 +368,22 @@ body{
 }
 /* EOF - Store */
 
+
+/* EOF - About.js */
+.about-page{
+  text-align: center;
+  padding-bottom: 20px;
+}
+.about-brands-frame{
+  width: 100%;
+  height: 300px;
+}
+.about-img-brands{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+/* EOF - About.js */
 /*------------------------*/
 .hidden.menu {
   display: none;
