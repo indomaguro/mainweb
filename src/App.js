@@ -56,6 +56,7 @@ function App() {
         </Navbar.Collapse>
       </Navbar>
   */}
+
       <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <a className="navbar-brand text-info" href="/">
         <i class="fas fa-utensils"></i>  FOREAT
@@ -95,12 +96,17 @@ function App() {
               <a className="nav-link text-info" href="/about">ABOUT</a>
             </li>
           </ul>
+{/*
           <form className="form-inline my-2 my-lg-0">
             <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
             <button className="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
           </form>
+*/}
+          <div className=" my-2 my-lg-0">
+            <a className="nav-link text-info" href="/login"><i class="fas fa-user-circle"></i>  Join / Login</a>
+          </div>
         </div>
-      </nav>
+      </nav>  
 
       <div className="page-space">
         <Switch>

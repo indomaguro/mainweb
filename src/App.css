@@ -1,5 +1,6 @@
+/* BOF App.js */
 body{
-  background-color: #292b2c;
+  /*background-color: #292b2c;*/
 }
 
 .App {
@@ -90,6 +91,8 @@ body{
   object-fit: cover;
 }
 
+/* EOF App.js */
+
 /* BOF Home.js */
 
 .home-store-collection{
@@ -152,7 +155,6 @@ body{
   left: 0;
   right: 0;
   z-index: -2;
-  background-color: #f00;
 }
 
 .imgMemberBenefit{
