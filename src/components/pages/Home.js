@@ -68,7 +68,7 @@ class Home extends Component{
           </div>       
       
       
-          <div className="memberpart">
+          <div className="memberpart bg-light">
           <Container>
             <Row>
               <Col className="memberpartItem">
@@ -121,7 +121,7 @@ class Home extends Component{
           </Container>
 
           
-          <div className="newsPart">
+          <div className="newsPart bg-light">
             <Container>
             <h3>News</h3>
               <div className="newsItem">  

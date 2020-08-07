@@ -11,8 +11,43 @@ const Store=()=>{
     let dummy=[1,2,3];
     const {storename}=useParams();
 
+    const gdata=(xname)=>{
+        let data={};
+        switch(xname){
+            case 'nama-sushi':
+                data={
+                    name:'NAMA SUSHI',
+                    address: 'Jakarta Utara',
+                    desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+                };
+                break;
+            case 'shabu-masa':
+                data={
+                    name:'SHABU MASA',
+                    address:'Jakarta Selatan',
+                    desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+                };
+                break;
+            case 'sushi-masa':
+                data={
+                    name:'SUSHI MASA',
+                    address:'Jakarta Timur',
+                    desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+                };
+                break;
+            default:
+                data={
+                    name:'RODIN PATISERRIE',
+                    address:'Jakarta Barat',
+                    desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+                };
+        }
+        return data;
+    }
+
     useEffect(()=>{
         console.log(`Store NAME: ${storename}`);
+        console.log(gdata(storename));
     },[]);
 
     return(
@@ -28,12 +63,10 @@ const Store=()=>{
                 </div>
 
                 <div className="store-desc">
-                    <h3>SUSHI MASA</h3>
+                    <h3>{gdata(storename).name}</h3>
                     
-                    <h5 className="text-info"><i class="fas fa-map-marker-alt"></i>  JAKARTA</h5>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
+                    <h5 className="text-info"><i class="fas fa-map-marker-alt"></i>  {gdata(storename).address}</h5>
+                    <p>{gdata(storename).desc}</p>
                 </div>
             </div>
 
