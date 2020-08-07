@@ -401,6 +401,21 @@ body{
   object-fit: cover;
 }
 /* EOF - About.js */
+
+/* BOF - News.js */
+.news-latest-part{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.news-latest-image-frame{
+  flex:1;
+}
+.news-latest-desc-frame{
+  flex:1;
+}
+/* EOF - News.js */
 /*------------------------*/
 .hidden.menu {
   display: none;

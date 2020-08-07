@@ -52,6 +52,7 @@ npm run deploy
 - Autohide out-of-stock: https://help.shopify.com/en/manual/products/inventory/hide-out-of-stock
 - Shopify NPM GraphQL: https://www.npmjs.com/package/@shopify/react-graphql
 - Shopify GraphQL installed as an app: https://fishop-indonesia.myshopify.com/admin/apps/5a3c93b0e9bc8d5abf63531fcd829b5d/
+- Automatic layout adjusted, move element bellow on smaller screen: https://stackoverflow.com/questions/33260188/how-can-i-move-a-div-from-top-to-bottom-on-mobile-layouts
 
 
 ## Progress
