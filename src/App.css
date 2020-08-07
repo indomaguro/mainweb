@@ -6,6 +6,9 @@ body{
 .App {
   /*text-align: center;*/
 }
+.app-web-logo{
+  width: 64px;
+}
 .carox{
   max-height: 100%;
   max-width:100%;
@@ -101,13 +104,14 @@ body{
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  color: black;
+  font-weight: bold;
 }
 
 .home-store-collection:hover{
   text-decoration: none;
   color: black;
-  font-weight: bold;
+
+  text-shadow: -1px 0 lightgray, 0 1px lightgray, 1px 0 lightgray, 0 -1px lightgray;
 }
 
 .storeWeb{
@@ -330,11 +334,19 @@ body{
   align-items: center;
   padding:2px;
 }
+.store-desc{
+}
 .store-desc h3{
   text-align: center;
 }
-.store-desc h5{
+.store-desc-address{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
+  max-width: 400px;
+  margin:0px auto;
+  padding:10px;
 }
 .store-desc p{
   text-align: justify;
@@ -365,6 +377,11 @@ body{
 }
 .store-location{
   text-align: center;
+  padding:0px;
+  /*background-color: #292b2c;*/
+  line-height: 0; /*remove google map's iframe padding and makeit stuck on top and bottom div to another*/
+}
+.store-location h4{
 }
 /* EOF - Store */
 

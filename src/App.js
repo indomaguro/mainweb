@@ -67,9 +67,6 @@ function App() {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mx-auto">
-            <li className="nav-item active">
-              <a className="nav-link text-info" href="/">HOME <span className="sr-only">(current)</span></a>
-            </li>
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle text-info" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 EAT & DRINK
