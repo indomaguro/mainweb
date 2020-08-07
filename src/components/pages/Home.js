@@ -30,37 +30,37 @@ class Home extends Component{
 
               <a href="/eat-drink/nama-sushi" className="col home-store-collection" >
                 <div className="imgStoreWebXX">
-                  <Image src={imgNamasushi} thumbnail />
+                  <Image src={imgNamasushi} className="rounded-circle" thumbnail />
                 </div>
                 <div className="titleStoreWebXX">
-                  <p>Nama Sushi</p>
+                  <p className="text-info">Nama Sushi</p>
                 </div>
               </a>
 
               <a href="/eat-drink/rodin" className="col home-store-collection" >
                 <div className="imgStoreWebXX">
-                  <Image src={imgRodin} thumbnail />
+                  <Image src={imgRodin} className="rounded-circle" thumbnail />
                 </div>
                 <div className="titleStoreWebXX">
-                  <p>Rodin Patiserrie</p>
+                  <p className="text-info">Rodin Patiserrie</p>
                 </div>
               </a>
 
               <a href="/eat-drink/shabu-masa" className="col home-store-collection" >
                 <div className="imgStoreWebXX">
-                  <Image src={imgShabumasa} thumbnail />
+                  <Image src={imgShabumasa} className="rounded-circle" thumbnail />
                 </div>
                 <div className="titleStoreWebXX">
-                  <p>Shabu Masa</p>
+                  <p className="text-info">Shabu Masa</p>
                 </div>
               </a>              
 
               <a href="/eat-drink/sushi-masa" className="col home-store-collection" >
                 <div className="imgStoreWebXX">
-                  <Image src={imgSushimasa} thumbnail />
+                  <Image src={imgSushimasa} className="rounded-circle" thumbnail />
                 </div>
                 <div className="titleStoreWebXX">
-                  <p>Sushi Masa</p>
+                  <p className="text-info">Sushi Masa</p>
                 </div>
               </a>         
 

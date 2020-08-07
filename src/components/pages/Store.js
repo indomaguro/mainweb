@@ -1,4 +1,5 @@
 import React,{useState,useEffect} from 'react';
+import { useParams } from 'react-router-dom';
 import imgBanner from '../images/fish-banner.jpg';
 import imgSalmon from '../images/korean-bapsang.jpg';
 
@@ -7,7 +8,12 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 const Store=()=>{
-    let dummy=[1,2,3,4];
+    let dummy=[1,2,3];
+    const {storename}=useParams();
+
+    useEffect(()=>{
+        console.log(`Store NAME: ${storename}`);
+    },[]);
 
     return(
         <div className="store-page">
@@ -16,22 +22,22 @@ const Store=()=>{
             </div>
             <div className="container">
                 <div class="btn-group store-navigator" role="group" aria-label="Basic example">
-                    <a href="#store-gallery-part" class="btn btn-sm btn-outline-secondary">Gallery</a>
-                    <a href="#store-promo-part" class="btn btn-sm btn-outline-secondary">Event & Promo</a>
-                    <a href="#store-location-part" class="btn btn-sm btn-outline-secondary">Location</a>
+                    <a href="#store-gallery-part" class="btn btn-sm btn-outline-info"><i class="fas fa-image"></i>  Gallery</a>
+                    <a href="#store-promo-part" class="btn btn-sm btn-outline-info"><i class="fas fa-calendar-alt"></i>  Event & Promo</a>
+                    <a href="#store-location-part" class="btn btn-sm btn-outline-info"><i class="fas fa-map-marker-alt"></i>  Location</a>
                 </div>
 
                 <div className="store-desc">
                     <h3>SUSHI MASA</h3>
                     
-                    <h5>JAKARTA</h5>
+                    <h5 className="text-info"><i class="fas fa-map-marker-alt"></i>  JAKARTA</h5>
                     <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
                 </div>
             </div>
 
-            <div className="container-fluidXXX store-gallery" id="#store-gallery-part">
+            <div className="container-fluidXXX store-gallery bg-light" id="#store-gallery-part">
                 <h3>Gallery</h3>
                 <OwlCarousel
                     className="owl-themex"

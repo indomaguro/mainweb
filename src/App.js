@@ -57,7 +57,9 @@ function App() {
       </Navbar>
   */}
       <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-        <a className="navbar-brand" href="/">FOREAT</a>
+        <a className="navbar-brand text-info" href="/">
+        <i class="fas fa-utensils"></i>  FOREAT
+        </a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -65,37 +67,37 @@ function App() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mx-auto">
             <li className="nav-item active">
-              <a className="nav-link" href="/">HOME <span className="sr-only">(current)</span></a>
+              <a className="nav-link text-info" href="/">HOME <span className="sr-only">(current)</span></a>
             </li>
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a className="nav-link dropdown-toggle text-info" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 EAT & DRINK
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a className="dropdown-item" href="/eat-drink/sushi-masa">Sushi Masa</a>
-                <a className="dropdown-item" href="/eat-drink/rodin">Rodin Patiserrie</a>
-                <a className="dropdown-item" href="/eat-drink/shabu-masa">Shabu Masa</a>
-                <a className="dropdown-item" href="/eat-drink/nama-sushi">Nama Sushi</a>
+                <a className="dropdown-item text-info" href="/eat-drink/sushi-masa">Sushi Masa</a>
+                <a className="dropdown-item text-info" href="/eat-drink/rodin">Rodin Patiserrie</a>
+                <a className="dropdown-item text-info" href="/eat-drink/shabu-masa">Shabu Masa</a>
+                <a className="dropdown-item text-info" href="/eat-drink/nama-sushi">Nama Sushi</a>
                 <div className="dropdown-divider"></div>
-                <a className="dropdown-item" href="/eat-drink">Show all</a>
+                <a className="dropdown-item text-info" href="/eat-drink">Show all</a>
               </div>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/member">MEMBERSHIP</a>
+              <a className="nav-link text-info" href="/member">MEMBERSHIP</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="https://fishop.co.id/" target="_blank">SHOP</a>
+              <a className="nav-link text-info" href="https://fishop.co.id/" target="_blank">SHOP</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/news">NEWS</a>
+              <a className="nav-link text-info" href="/news">NEWS</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/about">ABOUT</a>
+              <a className="nav-link text-info" href="/about">ABOUT</a>
             </li>
           </ul>
           <form className="form-inline my-2 my-lg-0">
             <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-            <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <button className="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
           </form>
         </div>
       </nav>
@@ -111,7 +113,7 @@ function App() {
         <Route path="/news" component={News} exact />
         <Route path="/about" component={About} exact />
         <Route path="/product/:id" component={Product} exact />
-        <Route path="/eat-drink" component={Store} />
+        <Route path="/eat-drink/:storename" component={Store} exact />
       </div>
 
       <Footer/>
