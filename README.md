@@ -53,6 +53,7 @@ npm run deploy
 - Shopify NPM GraphQL: https://www.npmjs.com/package/@shopify/react-graphql
 - Shopify GraphQL installed as an app: https://fishop-indonesia.myshopify.com/admin/apps/5a3c93b0e9bc8d5abf63531fcd829b5d/
 - Automatic layout adjusted, move element bellow on smaller screen: https://stackoverflow.com/questions/33260188/how-can-i-move-a-div-from-top-to-bottom-on-mobile-layouts
+- Mail subscription: https://www.w3schools.com/nodejs/nodejs_email.asp
 
 
 ## Progress
@@ -83,3 +84,4 @@ npm run deploy
 - Aug 6, 2020 [App ]: Create Store.js as the template for each stores
 - Aug 7, 2020 [About ]: Page created, set description and put brands' logo 
 - Aug 10, 2020 [News ]: Update news list view. Set anchor text as a link to read full content of the news
+- Aug 10, 2020 [Member ]: Basic layout created

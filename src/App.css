@@ -440,6 +440,24 @@ body{
   line-height: 130px;
 }
 /* EOF - News.js */
+
+/* EOF - Member.js */
+.member-page{
+
+}
+.member-slide-frame{
+  width: 100%;
+  height: 300px;
+}
+.member-slide-image{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+.member-calling{
+  line-height: 50px;
+}
+/* EOF - Member.js */
 /*------------------------*/
 .hidden.menu {
   display: none;
