@@ -1,7 +1,7 @@
 # FOREAT
 Online marketplace for foods and drinks ordering. Presented by RPI
 
-## Project: Main Website Fishop
+## Project: FOREAT Online Marketplace
 - Referensi: https://www.ismaya.com/
 - Referensi tambahan: https://lunchbox.progressionstudios.com/
 - Navigation menu: Shop-> mengarah ke fishop.co.id
