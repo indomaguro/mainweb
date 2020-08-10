@@ -1,5 +1,5 @@
-# Main Web
-A main website with user-friendly layout conneced with shopify marketplace
+# FOREAT
+Online marketplace for food and drink ordering. Presented by RPI
 
 ## Project: Main Website Fishop
 - Referensi: https://www.ismaya.com/
