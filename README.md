@@ -1,5 +1,5 @@
 # FOREAT
-Online marketplace for food and drink ordering. Presented by RPI
+Online marketplace for foods and drinks ordering. Presented by RPI
 
 ## Project: Main Website Fishop
 - Referensi: https://www.ismaya.com/
