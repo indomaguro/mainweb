@@ -433,6 +433,7 @@ body{
 .news-before-item{
   margin-right: 15px;
   margin-top: 15px;
+  max-width: 300px;
 }
 .nbp-btn-add{
   text-align: center;

@@ -31,8 +31,8 @@ class News extends Component{
                                 <div className="nbi-image-frame"><img className="nbi-image " src={imgSalmon} alt=""/></div>
                                 <div className="nbi-date">WED, 17 JUN 2020</div>
                                 <div className="nbi-title">News Title {data}</div>
-                                <div className="nbi-content">News Content</div>
-                                <div className="nbi-more">READ MORE ></div>
+                                <div className="nbi-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</div>
+                                <a href="/" className="nbi-more">READ MORE ></a>
                             </div>
                             )
                     })
