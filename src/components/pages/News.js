@@ -3,6 +3,8 @@ import imgSalmon from '../images/korean-bapsang.jpg';
 
 class News extends Component{
     render(){
+        const dummy=[1,2,3,4,5,6];
+
         return(
             <div className="news-page container">
                 <h3>News</h3>
@@ -21,7 +23,22 @@ class News extends Component{
                         <a href="" className="text-info">READ MORE ></a>
                     </div>
                 </div>
-                <div className="news-before-part"></div>
+                <div className="news-before-part">
+                {
+                    dummy.map((data,idx)=>{
+                        return(
+                            <div className="news-before-item" key={idx}>
+                                <div className="nbi-image-frame"><img className="nbi-image " src={imgSalmon} alt=""/></div>
+                                <div className="nbi-date">WED, 17 JUN 2020</div>
+                                <div className="nbi-title">News Title {data}</div>
+                                <div className="nbi-content">News Content</div>
+                                <div className="nbi-more">READ MORE ></div>
+                            </div>
+                            )
+                    })
+                }
+                </div>
+                <div className="nbp-btn-add"><button className="btn btn-sm btn-outline-info">LOAD MORE</button></div>
             </div>
         )
     }
