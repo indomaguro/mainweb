@@ -51,12 +51,13 @@ body{
   height: 300px;
 }
 
-.memberpartItem{
+.home-memberpartItem{
   display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 
 .botBanner{
   width:100%;

@@ -54,6 +54,7 @@ npm run deploy
 - Shopify GraphQL installed as an app: https://fishop-indonesia.myshopify.com/admin/apps/5a3c93b0e9bc8d5abf63531fcd829b5d/
 - Automatic layout adjusted, move element bellow on smaller screen: https://stackoverflow.com/questions/33260188/how-can-i-move-a-div-from-top-to-bottom-on-mobile-layouts
 - Mail subscription: https://www.w3schools.com/nodejs/nodejs_email.asp
+- Bootstrap flex: https://getbootstrap.com/docs/4.5/utilities/flex/
 
 
 ## Progress

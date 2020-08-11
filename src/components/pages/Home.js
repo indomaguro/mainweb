@@ -69,28 +69,27 @@ class Home extends Component{
       
       
           <div className="memberpart bg-light">
-          <Container>
-            <Row>
-              <Col className="memberpartItem">
-                <h3>Membership Program</h3>
-                <p>
-                It’s probably been said a thousand times, and it’s true: running a membership site allows you to generate recurring revenue. Members pay a monthly (or yearly) fee in exchange for access to your content, which also means you can constantly build upon your revenue every time you get more signups. But, it’s not just that; membership revenue can also be more predictable and reliable than some other business models. This is because memberships are ongoing unless cancelled, and consequently, your revenue from memberships doesn’t tend to fluctuate as much as revenue from one-off purchases.
-                </p>
-                <div>
-                  <Button variant="outline-info">Learn More</Button>
-                  &nbsp;
-                  <Button variant="info">Join Now</Button>
+            <div className="container">
+              <div className="row">
+                <div className="col home-memberpartItem text-justify">
+                  <h3>Membership Program</h3>
+                  <p>
+                  It’s probably been said a thousand times, and it’s true: running a membership site allows you to generate recurring revenue. Members pay a monthly (or yearly) fee in exchange for access to your content, which also means you can constantly build upon your revenue every time you get more signups. But, it’s not just that; membership revenue can also be more predictable and reliable than some other business models. This is because memberships are ongoing unless cancelled, and consequently, your revenue from memberships doesn’t tend to fluctuate as much as revenue from one-off purchases.
+                  </p>
+                  <div>
+                    <Button variant="outline-info">Learn More</Button>
+                    &nbsp;
+                    <Button variant="info">Join Now</Button>
+                  </div>
                 </div>
-              </Col>
-              <Col className="memberpartItem">
-                <Image src={imgDiscountMember} thumbnail />
-              </Col>
-            </Row>
-          </Container>      
+                <div className="col memberpartItem">
+                  <Image src={imgDiscountMember} thumbnail />
+                </div>
+              </div>   
+            </div>
           </div>
 
-          <Container>     
-          <div className="image-testing-1"></div>     
+          <div className="container">
           <h3>Member Benefits</h3>
           <div className="bg-img-memberbenefit">
             <div className="benefit-item">
@@ -118,7 +117,7 @@ class Home extends Component{
               </div>            
             </div>
           </div>          
-          </Container>
+          </div>
 
           
           <div className="newsPart bg-light">
