@@ -55,6 +55,7 @@ npm run deploy
 - Automatic layout adjusted, move element bellow on smaller screen: https://stackoverflow.com/questions/33260188/how-can-i-move-a-div-from-top-to-bottom-on-mobile-layouts
 - Mail subscription: https://www.w3schools.com/nodejs/nodejs_email.asp
 - Bootstrap flex: https://getbootstrap.com/docs/4.5/utilities/flex/
+- React super-easy theme: https://www.youtube.com/watch?v=tNsveb6RRGA
 
 
 ## Progress
