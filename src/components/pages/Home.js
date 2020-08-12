@@ -71,7 +71,7 @@ class Home extends Component{
           <div className="memberpart bg-light">
             <div className="container">
               <div className="row">
-                <div className="col home-memberpartItem text-justify">
+                <div className="col-md-6 home-memberpartItem text-justify">
                   <h3>Membership Program</h3>
                   <p>
                   It’s probably been said a thousand times, and it’s true: running a membership site allows you to generate recurring revenue. Members pay a monthly (or yearly) fee in exchange for access to your content, which also means you can constantly build upon your revenue every time you get more signups. But, it’s not just that; membership revenue can also be more predictable and reliable than some other business models. This is because memberships are ongoing unless cancelled, and consequently, your revenue from memberships doesn’t tend to fluctuate as much as revenue from one-off purchases.
@@ -82,8 +82,8 @@ class Home extends Component{
                     <Button variant="info">Join Now</Button>
                   </div>
                 </div>
-                <div className="col memberpartItem">
-                  <Image src={imgDiscountMember} thumbnail />
+                <div className="col-md-6 memberpartItem">
+                  <img src={imgDiscountMember} className="img-fluid rounded home-member-image" />
                 </div>
               </div>   
             </div>

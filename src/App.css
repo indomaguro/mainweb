@@ -99,6 +99,9 @@ body{
 
 /* BOF Home.js */
 
+.home-member-image{
+}
+
 .home-store-collection{
   display:flex;
   flex-direction: column;
