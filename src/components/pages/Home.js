@@ -1,12 +1,5 @@
 import React,{Component} from 'react';
 import Botbanner from '../Botbanner';
-import{
-    Container,
-    Row,
-    Col,
-    Image,
-    Button, 
-} from 'react-bootstrap';
 
 //import imgDadu from '../images/unagi.jpg';
 import Carouselx from '../Carouselx';
@@ -80,9 +73,9 @@ class Home extends Component{
                   It’s probably been said a thousand times, and it’s true: running a membership site allows you to generate recurring revenue. Members pay a monthly (or yearly) fee in exchange for access to your content, which also means you can constantly build upon your revenue every time you get more signups. But, it’s not just that; membership revenue can also be more predictable and reliable than some other business models. This is because memberships are ongoing unless cancelled, and consequently, your revenue from memberships doesn’t tend to fluctuate as much as revenue from one-off purchases.
                   </p>
                   <div>
-                    <Button variant="outline-info">Learn More</Button>
+                    <button className="btn btn-outline-info">Learn More</button>
                     &nbsp;
-                    <Button variant="info">Join Now</Button>
+                    <button className="btn btn-info">Join Now</button>
                   </div>
                 </div>
               </div>   
@@ -120,50 +113,51 @@ class Home extends Component{
           </div>
 
           
-          <div className="newsPart bg-light">
-            <Container>
-            <h3>News</h3>
-              <div className="newsItem">  
-                <div className="newsImgPart">
-                  <Image src={imgNamasushi} thumbnail/>
+          <div className="newsPartXXX bg-light">
+            <div className="container">
+              <h3>News</h3>
+              <div className="row">
+                <div className="newsItemXXX col-md-4">  
+                  <div className="newsImgPartXXX">
+                    <img src={imgNamasushi} className="rounded img-fluid"/>
+                  </div>
+                  <div className="newInfoXXX">
+                    <div className="font-weight-lighter">WED, 17 JUN 2020</div>
+                    <h3 className="text-info">News title</h3>
+                    <p>New highlight This is because memberships are ongoing unless cancelled, and consequently...</p>
+                  </div>
                 </div>
-                <div className="newInfo">
-                  <h3>News title</h3>
-                  <p>New highlight This is because memberships are ongoing unless cancelled, and consequently...</p>
+                <div className="newsItemXXX col-md-4">  
+                  <div className="newsImgPartXXX">
+                    <img src={imgRodin} className="rounded img-fluid"/>
+                  </div>
+                  <div className="newInfoXXX">
+                    <div className="font-weight-lighter">WED, 17 JUN 2020</div>
+                    <h3 className="text-info">News title</h3>
+                    <p>New highlight This is because memberships are ongoing unless cancelled, and consequently...</p>
+                  </div>
+                </div>
+                <div className="newsItemXXX col-md-4">  
+                  <div className="newsImgPartXXX">
+                    <img src={imgSushimasa} className="rounded img-fluid"/>
+                  </div>
+                  <div className="newInfoXXX">
+                    <div className="font-weight-lighter">WED, 17 JUN 2020</div>
+                    <h3 className="text-info">News title</h3>
+                    <p>New highlight This is because memberships are ongoing unless cancelled, and consequently...</p>
+                  </div>
                 </div>
               </div>
-              <div className="newsItem">  
-                <div className="newsImgPart">
-                  <Image src={imgRodin} thumbnail/>
-                </div>
-                <div className="newInfo">
-                  <h3>News title</h3>
-                  <p>New highlight This is because memberships are ongoing unless cancelled, and consequently...</p>
-                </div>
+              <div className="d-flex justify-content-center">
+                <button className="btn btn-sm btn-info">Show all</button>
               </div>
-              <div className="newsItem">  
-                <div className="newsImgPart">
-                  <Image src={imgSushimasa} thumbnail/>
-                </div>
-                <div className="newInfo">
-                  <h3>News title</h3>
-                  <p>New highlight This is because memberships are ongoing unless cancelled, and consequently...</p>
-                </div>
-              </div>
-              <Button variant="info">Show all</Button>
-            </Container>
+            </div>
           </div>
           
 
-          <div>
-            <Container>
-              <Row>
-                <Col>
+          <div className="container">
                 <iframe title="xx23324324" src="https://www.google.com/maps/embed?pb=!4v1596012490423!6m8!1m7!1sCAoSLEFGMVFpcFBfSktEVnJTZ1k3dWNFOHNQUXQ3WHN1dnR3ckVpZVZESXc5MWg3!2m2!1d-6.101273366840912!2d106.8001694477426!3f260!4f10!5f0.7820865974627469" width="100%" height="450" frameBorder="0" style={{border:0}} allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
                 
-                </Col>
-              </Row>
-            </Container>
           </div>      
       
 
