@@ -71,6 +71,9 @@ class Home extends Component{
           <div className="memberpart bg-light">
             <div className="container">
               <div className="row">
+                <div className="col-md-6 memberpartItem">
+                  <img src={imgDiscountMember} className="img-fluid rounded home-member-image" />
+                </div>
                 <div className="col-md-6 home-memberpartItem text-justify">
                   <h3>Membership Program</h3>
                   <p>
@@ -81,9 +84,6 @@ class Home extends Component{
                     &nbsp;
                     <Button variant="info">Join Now</Button>
                   </div>
-                </div>
-                <div className="col-md-6 memberpartItem">
-                  <img src={imgDiscountMember} className="img-fluid rounded home-member-image" />
                 </div>
               </div>   
             </div>
