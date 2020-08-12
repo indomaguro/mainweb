@@ -30,7 +30,7 @@ class Home extends Component{
 
               <a href="/eat-drink/nama-sushi" className="col home-store-collection" >
                 <div className="imgStoreWebXX">
-                  <Image src={imgNamasushi} className="rounded-circle" thumbnail />
+                  <img src={imgNamasushi} className="rounded-circle img-thumbnail"  />
                 </div>
                 <div className="titleStoreWebXX">
                   <p className="text-info">Nama Sushi</p>
@@ -39,7 +39,7 @@ class Home extends Component{
 
               <a href="/eat-drink/rodin" className="col home-store-collection" >
                 <div className="imgStoreWebXX">
-                  <Image src={imgRodin} className="rounded-circle" thumbnail />
+                  <img src={imgRodin} className="rounded-circle img-thumbnail" />
                 </div>
                 <div className="titleStoreWebXX">
                   <p className="text-info">Rodin Patiserrie</p>
@@ -48,7 +48,7 @@ class Home extends Component{
 
               <a href="/eat-drink/shabu-masa" className="col home-store-collection" >
                 <div className="imgStoreWebXX">
-                  <Image src={imgShabumasa} className="rounded-circle" thumbnail />
+                  <img src={imgShabumasa} className="rounded-circle img-thumbnail" />
                 </div>
                 <div className="titleStoreWebXX">
                   <p className="text-info">Shabu Masa</p>
@@ -57,7 +57,7 @@ class Home extends Component{
 
               <a href="/eat-drink/sushi-masa" className="col home-store-collection" >
                 <div className="imgStoreWebXX">
-                  <Image src={imgSushimasa} className="rounded-circle" thumbnail />
+                  <img src={imgSushimasa} className="rounded-circle img-thumbnail" />
                 </div>
                 <div className="titleStoreWebXX">
                   <p className="text-info">Sushi Masa</p>
@@ -91,28 +91,28 @@ class Home extends Component{
 
           <div className="container">
           <h3>Member Benefits</h3>
-          <div className="bg-img-memberbenefit">
-            <div className="benefit-item">
-              <div className="bg-img-1">
-                <Image src={imgDiscountMember} thumbnail/>
+          <div className="row">
+            <div className="benefit-itemXXX col-sm-4">
+              <div className="bg-img-1XXX">
+                <img src={imgDiscountMember} className="img-thumbnail"/>
               </div>
-              <div className="benefit-info">
+              <div className="benefit-infoXXX">
                 <p>This is because memberships are ongoing unless cancelled, and consequently, your revenue from memberships doesn’t tend to fluctuate as much as revenue from one-off purchases.</p>
               </div>            
             </div>
-            <div className="benefit-item">
-              <div className="bg-img-1">
-                <Image src={imgDiscountMember} thumbnail />
+            <div className="benefit-itemXXX col-sm-4">
+              <div className="bg-img-1XXX">
+                <img src={imgDiscountMember} className="img-thumbnail" />
               </div>
-              <div className="benefit-info">
+              <div className="benefit-infoXXX">
                 <p>This is because memberships are ongoing unless cancelled, and consequently, your revenue from memberships doesn’t tend to fluctuate as much as revenue from one-off purchases.</p>
               </div>            
             </div>
-            <div className="benefit-item">
-              <div className="bg-img-1">
-                <Image src={imgDiscountMember} thumbnail />
+            <div className="benefit-itemXXX col-sm-4">
+              <div className="bg-img-1XXX">
+                <img src={imgDiscountMember} className="img-thumbnail" />
               </div>
-              <div className="benefit-info">
+              <div className="benefit-infoXXX">
                 <p>This is because memberships are ongoing unless cancelled, and consequently, your revenue from memberships doesn’t tend to fluctuate as much as revenue from one-off purchases.</p>
               </div>            
             </div>
