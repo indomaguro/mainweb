@@ -88,3 +88,4 @@ npm run deploy
 - Aug 10, 2020 [News ]: Update news list view. Set anchor text as a link to read full content of the news
 - Aug 10, 2020 [Member ]: Basic layout created
 - Aug 12, 2020 [Home ]: Set automatic elements alignment by boostrap col-md-{number up to 12}
+- Aug 12, 2020 [Home ]: Remove react-boostrap elements from the module
