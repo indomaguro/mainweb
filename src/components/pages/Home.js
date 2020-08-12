@@ -85,30 +85,30 @@ class Home extends Component{
           <div className="container">
           <h3>Member Benefits</h3>
           <div className="row">
-            <div className="benefit-itemXXX col-sm-4">
+            <div className="benefit-itemXXX col-md-6">
               <div className="bg-img-1XXX">
-                <img src={imgDiscountMember} className="img-thumbnail"/>
+                <img src={imgDiscountMember} className="img-fluid rounded"/>
               </div>
               <div className="benefit-infoXXX">
                 <p>This is because memberships are ongoing unless cancelled, and consequently, your revenue from memberships doesn’t tend to fluctuate as much as revenue from one-off purchases.</p>
               </div>            
             </div>
-            <div className="benefit-itemXXX col-sm-4">
+            <div className="benefit-itemXXX col-md-6">
+              <div className="bg-img-1XXX">
+                <img src={imgDiscountMember} className="img-fluid rouded" />
+              </div>
+              <div className="benefit-infoXXX">
+                <p>This is because memberships are ongoing unless cancelled, and consequently, your revenue from memberships doesn’t tend to fluctuate as much as revenue from one-off purchases.</p>
+              </div>            
+            </div>
+            {/*<div className="benefit-itemXXX col-sm-4">
               <div className="bg-img-1XXX">
                 <img src={imgDiscountMember} className="img-thumbnail" />
               </div>
               <div className="benefit-infoXXX">
                 <p>This is because memberships are ongoing unless cancelled, and consequently, your revenue from memberships doesn’t tend to fluctuate as much as revenue from one-off purchases.</p>
               </div>            
-            </div>
-            <div className="benefit-itemXXX col-sm-4">
-              <div className="bg-img-1XXX">
-                <img src={imgDiscountMember} className="img-thumbnail" />
-              </div>
-              <div className="benefit-infoXXX">
-                <p>This is because memberships are ongoing unless cancelled, and consequently, your revenue from memberships doesn’t tend to fluctuate as much as revenue from one-off purchases.</p>
-              </div>            
-            </div>
+        </div>*/}
           </div>          
           </div>
 
