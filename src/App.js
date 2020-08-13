@@ -17,6 +17,7 @@ import About from './components/pages/About';
 import {Helmet} from "react-helmet";
 import Product from './components/pages/Product';
 import Store from './components/pages/Store';
+import Login from './components/auth/Login';
 
 function App() {
   
@@ -57,9 +58,15 @@ function App() {
       </Navbar>
   */}
 
+
+  <div className="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <Login/>
+  </div>
+
+
       <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <a className="navbar-brand text-info" href="/">
-        <i class="fas fa-utensils"></i>  FOREAT
+        <i className="fas fa-utensils"></i>  FOREAT
         </a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -100,7 +107,7 @@ function App() {
           </form>
 */}
           <div className=" my-2 my-lg-0">
-            <a className="nav-link text-info" href="/login"><i class="fas fa-user-circle"></i>  Join / Login</a>
+            <button type="button" className="btn btn-sm btn-success"  data-toggle="modal" data-target="#exampleModal"><i className="fas fa-user-circle"></i>  Join / Login</button>
           </div>
         </div>
       </nav>  
