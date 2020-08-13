@@ -89,3 +89,5 @@ npm run deploy
 - Aug 10, 2020 [Member ]: Basic layout created
 - Aug 12, 2020 [Home ]: Set automatic elements alignment by boostrap col-md-{number up to 12}
 - Aug 12, 2020 [Home ]: Remove react-boostrap elements from the module
+- Aug 13, 2020 [Footer ]: Update title and description
+- Aug 13, 2020 [App ]: Focusing on user-auth process

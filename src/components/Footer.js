@@ -6,9 +6,9 @@ const Footer=()=>{
         <div className="container footerpart">
           <div className="row">
             <div className="col">
-              <h3>MShop Indonesia</h3>
+              <h3>FOREAT &copy;</h3>
               <p>
-              MShop Indonesia is a high-end grocery store that specialises in selling seafood (fresh or frozen), meat, frozen food and other kinds of ingredients essential for cooking!  
+              FOREAT is a food and drink store comes to serve you with the best taste you can get!  
                
               </p>
             </div>
