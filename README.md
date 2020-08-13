@@ -68,10 +68,8 @@ npm run deploy
 - [ ] Events and Promo
 - [ ] News or Blog post
 
-### Shop page
-- [x] Banner
-- [ ] Filter
-- [x] Item view
+### Preview
+![screenshoot](foreat-plan.png)
 
 ## Logs
 - Jul 30, 2020 [Eat and Drink]: List all store represent by best capture image linked to store description page
