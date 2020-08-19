@@ -1,4 +1,4 @@
-# FOREAT
+# FOREAT Frontend Development
 Online marketplace for foods and drinks ordering. Presented by RPI
 
 ## Project: FOREAT Online Marketplace
@@ -69,7 +69,7 @@ npm run deploy
 - [ ] News or Blog post
 
 ### Preview
-![screenshoot](foreat-plan.png)
+![screenshoot](foreat-system-architecture.pngs)
 
 ## Logs
 - Jul 30, 2020 [Eat and Drink]: List all store represent by best capture image linked to store description page
