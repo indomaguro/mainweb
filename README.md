@@ -8,6 +8,10 @@ Online marketplace for foods and drinks ordering. Presented by RPI
 - Booking feature for members
 - Payment system integration
 
+
+### Preview
+![screenshoot](foreat-system-architecture.png)
+
 ## Libraries
 - https://react-bootstrap.github.io/
 - https://shopify.github.io/js-buy-sdk/
@@ -67,9 +71,6 @@ npm run deploy
 - [x] Member benefits
 - [ ] Events and Promo
 - [ ] News or Blog post
-
-### Preview
-![screenshoot](foreat-system-architecture.png)
 
 ## Logs
 - Jul 30, 2020 [Eat and Drink]: List all store represent by best capture image linked to store description page
