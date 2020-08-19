@@ -90,3 +90,4 @@ npm run deploy
 - Aug 12, 2020 [Home ]: Remove react-boostrap elements from the module
 - Aug 13, 2020 [Footer ]: Update title and description
 - Aug 13, 2020 [App ]: Focusing on user-auth process
+- Aug 19, 2020 [App ]: Backend database created. API preparation for data-request-response communication testing
