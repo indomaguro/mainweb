@@ -69,7 +69,7 @@ npm run deploy
 - [ ] News or Blog post
 
 ### Preview
-![screenshoot](foreat-system-architecture.pngs)
+![screenshoot](foreat-system-architecture.png)
 
 ## Logs
 - Jul 30, 2020 [Eat and Drink]: List all store represent by best capture image linked to store description page
