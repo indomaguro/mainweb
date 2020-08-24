@@ -9,9 +9,33 @@ import imgShabumasa from '../images/web-shabumasa.jpg';
 import imgSushimasa from '../images/web-sushimasa.jpg';
 import imgDiscountMember from '../images/discount-member.jpg';
 
+import axios from 'axios';
+
+
 class Home extends Component{
+  state={
+    stores:[],
+  }
+
+  componentDidMount(){
+      //console.log('TEEEESSSSTTIIIINNNNGGGGGG...!!!!!');
+    try {
+        //const response= axios.get('http://localhost:8000/store/');
+        //console.log('RESPONSE: '+JSON.stringify(response));
+      axios.get(`http://localhost:8000/store/`)
+      .then(res => {
+        const response = res.data;
+        this.setState({stores:response})
+        console.log(response);
+      })
+    } catch (error) {
+      console.error(error);
+    }
+  }
+
     render(){
         //const datax=[1,2,3,4,5,6];
+
         return(
             <div>
 
@@ -20,7 +44,21 @@ class Home extends Component{
 
             <div className="container eat-drinkXX">
             <div className="row storeWebXX">
-
+            {
+              this.state.stores.map((data,x)=>{
+                return(
+                  <a href="/eat-drink/nama-sushi" className="col home-store-collection" key={x} >
+                  <div className="imgStoreWebXX">
+                    <img src={data.cover} className="rounded-circle img-thumbnail"  />
+                  </div>
+                  <div className="titleStoreWebXX">
+                    <p className="text-info">{data.title}</p>
+                  </div>
+                </a>                  
+                )
+              })
+            }
+{/*
               <a href="/eat-drink/nama-sushi" className="col home-store-collection" >
                 <div className="imgStoreWebXX">
                   <img src={imgNamasushi} className="rounded-circle img-thumbnail"  />
@@ -56,7 +94,7 @@ class Home extends Component{
                   <p className="text-info">Sushi Masa</p>
                 </div>
               </a>         
-
+        */}
             </div> 
           </div>       
       
