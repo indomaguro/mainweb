@@ -7,7 +7,7 @@ body{
   /*text-align: center;*/
 }
 .app-web-logo{
-  width: 64px;
+  width: 32px;
 }
 .carox{
   max-height: 100%;
@@ -357,6 +357,8 @@ body{
   text-justify: inter-word;
   max-width: 600px;
   margin:0px auto;
+  /*white-space: pre-line;*/
+  font-size: small;
 }
 .store-gallery{
   text-align: center;

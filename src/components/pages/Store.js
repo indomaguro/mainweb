@@ -1,5 +1,6 @@
 import React,{useState,useEffect} from 'react';
 import { useParams } from 'react-router-dom';
+import axios from 'axios';
 import imgBanner from '../images/fish-banner.jpg';
 import imgSalmon from '../images/korean-bapsang.jpg';
 
@@ -9,9 +10,10 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 const Store=()=>{
     let dummy=[1,2,3];
-    const {storename}=useParams();
+    const {storeid}=useParams();
+    const [data,setData]=useState({});
 
-    const gdata=(xname)=>{
+    /*const gdata=(xname)=>{
         let data={};
         switch(xname){
             case 'nama-sushi':
@@ -43,11 +45,27 @@ const Store=()=>{
                 };
         }
         return data;
-    }
+    }*/
 
     useEffect(()=>{
-        console.log(`Store NAME: ${storename}`);
-        console.log(gdata(storename));
+        console.log(`Store NAME: ${storeid}`);
+        //console.log(gdata(storename));
+
+        try {
+            //const response= axios.get('http://localhost:8000/store/');
+            //console.log('RESPONSE: '+JSON.stringify(response));
+          axios.get(`http://localhost:8000/store/${storeid}/`)
+          .then(res => {
+            const response = res.data;
+            //this.setState({stores:response})
+            setData(response);
+            console.log(response);
+          })
+        } catch (error) {
+          console.error(error);
+        }
+
+
     },[]);
 
     return(
@@ -63,10 +81,10 @@ const Store=()=>{
                 </div>
 
                 <div className="store-desc">
-                    <h3>{gdata(storename).name}</h3>
+                    <h3>{data.title}</h3>
                     
-                    <dev className="store-desc-address text-info"><i class="fas fa-map-marker-alt"></i>  {gdata(storename).address}</dev>
-                    <p>{gdata(storename).desc}</p>
+                    <dev className="store-desc-address text-info"><i class="fas fa-map-marker-alt"></i>  {data.address}</dev>
+                    <p className="store-desc-p"><div dangerouslySetInnerHTML={{ __html: data.description }} /></p>
                 </div>
             </div>
 

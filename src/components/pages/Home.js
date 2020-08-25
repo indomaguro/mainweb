@@ -22,15 +22,16 @@ class Home extends Component{
     try {
         //const response= axios.get('http://localhost:8000/store/');
         //console.log('RESPONSE: '+JSON.stringify(response));
-      axios.get(`http://localhost:8000/store/`)
+      axios.get(`http://localhost:8000/store/?query={id, title, cover, isActive}`)
       .then(res => {
         const response = res.data;
         this.setState({stores:response})
-        console.log(response);
+        //console.log(response);
       })
     } catch (error) {
       console.error(error);
     }
+
   }
 
     render(){
@@ -46,16 +47,19 @@ class Home extends Component{
             <div className="row storeWebXX">
             {
               this.state.stores.map((data,x)=>{
-                return(
-                  <a href="/eat-drink/nama-sushi" className="col home-store-collection" key={x} >
-                  <div className="imgStoreWebXX">
-                    <img src={data.cover} className="rounded-circle img-thumbnail"  />
-                  </div>
-                  <div className="titleStoreWebXX">
-                    <p className="text-info">{data.title}</p>
-                  </div>
-                </a>                  
-                )
+                if(data.isActive==true){
+                  return(
+                    <a href={`/eat-drink/${data.id}`} className="col home-store-collection" key={x} >
+                    <div className="imgStoreWebXX">
+                      <img src={data.cover} className="rounded-circle img-thumbnail"  />
+                    </div>
+                    <div className="titleStoreWebXX">
+                      <p className="text-info">{data.title}</p>
+                    </div>
+                  </a>                  
+                  )                  
+                }
+
               })
             }
 {/*
@@ -187,7 +191,7 @@ class Home extends Component{
                 </div>
               </div>
               <div className="d-flex justify-content-center">
-                <button className="btn btn-sm btn-info">Show all</button>
+                <a href="/news/" className="btn btn-sm btn-info">Show all</a>
               </div>
             </div>
           </div>

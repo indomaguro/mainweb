@@ -1,12 +1,12 @@
-import React from 'react';
+import React,{useState,useEffect} from 'react';
 import {
   BrowserRouter as Router,
   Route,
   Switch,
 //  Link,
 } from 'react-router-dom';
-
-import logo from './logo.svg';
+import axios from 'axios';
+import logo from './mainlogo.svg';
 import './App.css';
 import Home from './components/pages/Home';
 import Footer from './components/Footer';
@@ -20,6 +20,22 @@ import Store from './components/pages/Store';
 import Login from './components/auth/Login';
 
 function App() {
+
+  const [data,setData]=useState([]);
+
+  useEffect(()=>{
+    try{
+      axios.get(`http://localhost:8000/store/?query={id, title, cover, isActive}`)
+      .then(res => {
+        const response = res.data;
+        //this.setState({stores:response})
+        setData(response);
+        //console.log(response);
+      })
+    } catch (error) {
+      console.error(error);
+    }
+  },[]);
   
   return (
     <Router>
@@ -66,7 +82,7 @@ function App() {
 
       <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <a className="navbar-brand text-info" href="/">
-        <i className="fas fa-utensils"></i>  FOREAT
+        <img src={logo} className="app-web-logo" />  FOREAT
         </a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -79,12 +95,24 @@ function App() {
                 EAT & DRINK
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a className="dropdown-item text-info" href="/eat-drink/sushi-masa">Sushi Masa</a>
+
+              {
+                data.map((dt,x)=>{
+                  if(dt.isActive==true){
+                    return(
+                      <a key={x} className="dropdown-item text-info" href={`/eat-drink/${dt.id}`}>{dt.title}</a>               
+                    )                  
+                  }
+  
+                })
+              }
+
+              {/*  <a className="dropdown-item text-info" href="/eat-drink/sushi-masa">Sushi Masa</a>
                 <a className="dropdown-item text-info" href="/eat-drink/rodin">Rodin Patiserrie</a>
                 <a className="dropdown-item text-info" href="/eat-drink/shabu-masa">Shabu Masa</a>
                 <a className="dropdown-item text-info" href="/eat-drink/nama-sushi">Nama Sushi</a>
                 <div className="dropdown-divider"></div>
-                <a className="dropdown-item text-info" href="/eat-drink">Show all</a>
+            <a className="dropdown-item text-info" href="/eat-drink">Show all</a>*/}
               </div>
             </li>
             <li className="nav-item">
@@ -123,7 +151,7 @@ function App() {
         <Route path="/news" component={News} exact />
         <Route path="/about" component={About} exact />
         <Route path="/product/:id" component={Product} exact />
-        <Route path="/eat-drink/:storename" component={Store} exact />
+        <Route path="/eat-drink/:storeid" component={Store} exact />
       </div>
 
       <Footer/>
