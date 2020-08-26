@@ -18,6 +18,7 @@ import {Helmet} from "react-helmet";
 import Product from './components/pages/Product';
 import Store from './components/pages/Store';
 import Login from './components/auth/Login';
+import NewsDetail from './components/pages/Newsdetail';
 
 function App() {
 
@@ -75,14 +76,14 @@ function App() {
   */}
 
 
-  <div className="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal fade" id="exampleModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <Login/>
   </div>
 
 
       <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <a className="navbar-brand text-info" href="/">
-        <img src={logo} className="app-web-logo" />  FOREAT
+        <img src={logo} className="app-web-logo" />
         </a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -149,6 +150,7 @@ function App() {
         <Route path="/member" component={Member} exact />
         <Route path="/shop-promo" component={Shop} exact />
         <Route path="/news" component={News} exact />
+        <Route path="/news-detail/:newsid" component={NewsDetail} exact />
         <Route path="/about" component={About} exact />
         <Route path="/product/:id" component={Product} exact />
         <Route path="/eat-drink/:storeid" component={Store} exact />

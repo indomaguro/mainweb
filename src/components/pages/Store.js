@@ -48,7 +48,7 @@ const Store=()=>{
     }*/
 
     useEffect(()=>{
-        console.log(`Store NAME: ${storeid}`);
+        //console.log(`Store NAME: ${storeid}`);
         //console.log(gdata(storename));
 
         try {
