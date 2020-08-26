@@ -27,13 +27,16 @@ const NewsDetail=()=>{
         <div className="newsdetail-page">
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>News Detail</title>
+                <title>{data.title}</title>
                 <link rel="canonical" href="http://mysite.com/example" />
                 <meta name="description" content="Shop page set description with react-helmet" />
             </Helmet>
 
+            <div className="container">
+                <div className=""><img src={data.cover} className="img-fluid" /></div>
+                <p className="store-desc-pXXX"><div dangerouslySetInnerHTML={{ __html: data.content }} /></p>
+            </div>
 
-            <h1>{data.title}</h1>
         </div>
     );
 }
