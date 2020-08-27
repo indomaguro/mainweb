@@ -58,13 +58,13 @@ class News extends Component{
                 {
                     this.state.news.map((data,idx)=>{
                         return(
-                            <div className="news-before-item" key={idx}>
-                                <div className="nbi-image-frameXXX bg-info rounded"><img className="nbi-imageXXX p-1 img-fluid" src={data.cover} alt=""/></div>
-                                <div className="nbi-date font-weight-lighter">{data.created}</div>
-                                <div className="nbi-title text-info text-uppercase font-weight-bold text-justify">{data.title}</div>
-                                <div className="nbi-content text-justify">{data.content.slice(0,100).replace(/<[^>]*>?/gm, '')}</div>
-                                <a href={`/news-detail/${data.id}`} className="nbi-more text-info text-decoration-none">READ MORE <i className="fas fa-chevron-circle-right"></i></a>
-                            </div>
+                            <a href={`/news/${data.slug}`} className="news-before-itemXXX shadow p-3 mb-5 bg-white rounded text-decoration-none" key={idx}>
+                                <div className="nbi-image-frameXXX bg-info rounded text-center"><img className="nbi-imageXXX img-fluid" src={data.cover} alt=""/></div>
+                                <div className="nbi-dateXXX font-weight-lighter">{data.created}</div>
+                                <div className="nbi-titleXXX text-info text-uppercase font-weight-bold text-justify">{data.title}</div>
+                                <div className="nbi-contentXXX text-justify">{data.content.slice(0,100).replace(/<[^>]*>?/gm, '')}</div>
+                                <a href={`/news/${data.slug}`} className="nbi-moreXXX text-info text-decoration-none">READ MORE <i className="fas fa-chevron-circle-right"></i></a>
+                            </a>
                             )
                     })
                 }

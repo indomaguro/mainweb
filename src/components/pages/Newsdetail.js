@@ -6,6 +6,11 @@ import {Helmet} from "react-helmet";
 const NewsDetail=()=>{
     const {newsid}=useParams();
     const [data,setData]=useState({});
+
+    const getSelfUrl=()=>{
+        return "result: ";
+    }
+
     useEffect(()=>{
         try {
             //const response= axios.get('http://localhost:8000/store/');
@@ -22,19 +27,20 @@ const NewsDetail=()=>{
         }
     },[]);
 
-
     return(
         <div className="newsdetail-page">
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>{data.title}</title>
-                <link rel="canonical" href="http://mysite.com/example" />
-                <meta name="description" content="Shop page set description with react-helmet" />
+                <link rel="canonical" href={`http://localhost:8000/news/${newsid}/`} />
+                <meta name="description" content={{ __html: data.content }}/>
             </Helmet>
 
             <div className="container">
-                <div className=""><img src={data.cover} className="img-fluid" /></div>
-                <p className="store-desc-pXXX"><div dangerouslySetInnerHTML={{ __html: data.content }} /></p>
+                <div className="text-center bg-dark"><img src={data.cover} className="img-fluid" /></div>
+                <div className=""><h3>{data.title}</h3></div>
+                <p className="store-desc-pXXX py-4"><div dangerouslySetInnerHTML={{ __html: data.content }} /></p>
+                <div></div>
             </div>
 
         </div>

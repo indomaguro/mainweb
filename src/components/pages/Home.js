@@ -3,10 +3,12 @@ import Botbanner from '../Botbanner';
 
 //import imgDadu from '../images/unagi.jpg';
 import Carouselx from '../Carouselx';
+/*
 import imgNamasushi from '../images/web-namasushi.jpg';
 import imgRodin from '../images/web-rodin.jpg';
 import imgShabumasa from '../images/web-shabumasa.jpg';
 import imgSushimasa from '../images/web-sushimasa.jpg';
+*/
 import imgDiscountMember from '../images/discount-member.jpg';
 
 import axios from 'axios';
@@ -24,7 +26,7 @@ class Home extends Component{
     try {
         //const response= axios.get('http://localhost:8000/store/');
         //console.log('RESPONSE: '+JSON.stringify(response));
-      axios.get(`http://localhost:8000/store/?query={id, title, cover, isActive}`)
+      axios.get(`http://localhost:8000/store/?query={id, slug, title, cover, isActive}`)
       .then(res => {
         const response = res.data;
         this.setState({stores:response})
@@ -36,7 +38,7 @@ class Home extends Component{
 
 
     try {
-      axios.get(`http://localhost:8000/news/?query={id, title, cover, created, isActive}`)
+      axios.get(`http://localhost:8000/news/?query={id, slug, title, cover, created, isActive}`)
       .then(res => {
         const response = res.data;
         this.setState({news:response})
@@ -63,7 +65,7 @@ class Home extends Component{
               this.state.stores.map((data,x)=>{
                 if(data.isActive==true){
                   return(
-                    <a href={`/eat-drink/${data.id}`} className="col home-store-collection" key={x} >
+                    <a href={`/eat-drink/${data.slug}`} className="col home-store-collection" key={x} >
                     <div className="imgStoreWebXX">
                       <img src={data.cover} className="rounded-circle img-thumbnail"  />
                     </div>
@@ -133,7 +135,7 @@ class Home extends Component{
                 this.state.news.slice(0,3).map((data,x)=>{
                   if(data.isActive==true){
                     return(
-                      <a className="newsItemXXX col-md-4" href={`/news-detail/${data.id}`} key={x}>  
+                      <a className="newsItemXXX col-md-4 text-decoration-none" href={`/news/${data.slug}`} key={x}>  
                       <div className="home-news-image-partXXX bg-info rounded ">
                         <img src={data.cover} className="home-news-imageXXX p-1 img-fluid"/>
                       </div>

@@ -1,6 +1,7 @@
 import React,{useState,useEffect} from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
+
 import imgBanner from '../images/fish-banner.jpg';
 import imgSalmon from '../images/korean-bapsang.jpg';
 

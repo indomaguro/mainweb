@@ -26,7 +26,7 @@ function App() {
 
   useEffect(()=>{
     try{
-      axios.get(`http://localhost:8000/store/?query={id, title, cover, isActive}`)
+      axios.get(`http://localhost:8000/store/?query={id, slug, title, cover, isActive}`)
       .then(res => {
         const response = res.data;
         //this.setState({stores:response})
@@ -101,7 +101,7 @@ function App() {
                 data.map((dt,x)=>{
                   if(dt.isActive==true){
                     return(
-                      <a key={x} className="dropdown-item text-info" href={`/eat-drink/${dt.id}`}>{dt.title}</a>               
+                      <a key={x} className="dropdown-item text-info" href={`/eat-drink/${dt.slug}`}>{dt.title}</a>               
                     )                  
                   }
   
@@ -150,7 +150,7 @@ function App() {
         <Route path="/member" component={Member} exact />
         <Route path="/shop-promo" component={Shop} exact />
         <Route path="/news" component={News} exact />
-        <Route path="/news-detail/:newsid" component={NewsDetail} exact />
+        <Route path="/news/:newsid" component={NewsDetail} />
         <Route path="/about" component={About} exact />
         <Route path="/product/:id" component={Product} exact />
         <Route path="/eat-drink/:storeid" component={Store} exact />
